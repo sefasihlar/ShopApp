@@ -20,7 +20,8 @@ namespace ShopApp.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var values = ip.GetALl();
+            return View(values);
         }
 
         public IActionResult Privacy()
