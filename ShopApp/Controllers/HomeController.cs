@@ -20,7 +20,7 @@ namespace ShopApp.Controllers
 
         public IActionResult Index()
         {
-            var values = ip.GetALl();
+            var values = ip.GetALl().Where(x=> x.Price >=1000).ToList();
             return View(values);
         }
 
@@ -41,8 +41,8 @@ namespace ShopApp.Controllers
            var values =  ip.GetALl();
             return View(values);
          
-                
-          
         }
+
+    
     }
 }

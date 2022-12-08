@@ -9,10 +9,10 @@
             <div class="col-xl-6 col-lg-7">
                 <nav class="header__menu">
                     <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="#">Women’s</a></li>
-                        <li><a href="#">Men’s</a></li>
-                        <li><a href="./shop.html">Shop</a></li>
+                        <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="Shop" asp-action="WomenList">Women’s</a></li>
+                        <li><a asp-controller="Shop" asp-action="ManList" >Men’s</a></li>
+                        <li><a asp-controller="Shop" asp-action="AllList">Shop</a></li>
                         <li>
                             <a href="#">Pages</a>
                             <ul class="dropdown">
