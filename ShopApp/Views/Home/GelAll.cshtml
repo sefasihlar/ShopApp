@@ -1,0 +1,13 @@
+﻿@model IEnumerable<ShopApp.Entites.Product>
+@{
+    ViewData["Title"] = "GelAll";
+}
+
+@foreach (var item in Model)
+{
+    <p>@item.Id</p>
+    <p>@item.Name</p>
+    <p>@item.Price</p>
+  
+}
+
