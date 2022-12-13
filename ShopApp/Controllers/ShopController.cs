@@ -1,13 +1,18 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using ShopApp.Business.Concrete;
 using ShopApp.DataAccess.Concrete.EfCore;
 using ShopApp.Entites;
+using ShopApp.WebUI.Models;
 
 namespace ShopApp.WebUI.Controllers
 {
     public class ShopController : Controller
     {
-        IProductManager ip = new IProductManager(new EfCoreProductDal());
+        ProductManager ip = new ProductManager(new EfCoreProductDal());
+        CategoryManager ic = new CategoryManager(new EfCoreCategoryDal());
+        
         public IActionResult Index()
         {
             return View();
@@ -44,5 +49,18 @@ namespace ShopApp.WebUI.Controllers
             }
             return View(product);
         }
+
+
+        public PartialViewResult CategoryList()
+        {
+
+            
+            return PartialView(new CategoryListViewModel()
+            {
+                kategoriler = ic.GetALl()
+            });
+            
+        }
+
     }
 }

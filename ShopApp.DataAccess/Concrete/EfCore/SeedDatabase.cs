@@ -49,6 +49,8 @@ namespace ShopApp.DataAccess.Concrete.EfCore
             new Product() {Name="IPhone 8", Price=7000,ImageUrl="5.jpg"},
             new Product() {Name="IPhone X", Price=9000,ImageUrl="6.jpg"},
             new Product() {Name="IPhone 11", Price=8000,ImageUrl="7.jpg"},
+
+            
         };
 
     }

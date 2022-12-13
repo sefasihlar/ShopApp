@@ -10,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace ShopApp.Business.Concrete
 {
-    public class IProductManager : IProdcutService
+    public class ProductManager : IProdcutService
     {
         private IProductDal _productDal;
 
-        public IProductManager(IProductDal productdal)
+        public ProductManager(IProductDal productdal)
         {
             _productDal = productdal;
         }

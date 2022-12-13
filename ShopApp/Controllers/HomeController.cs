@@ -11,7 +11,7 @@ namespace ShopApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        IProductManager ip = new IProductManager(new EfCoreProductDal());
+        ProductManager ip = new ProductManager(new EfCoreProductDal());
 
         public HomeController(ILogger<HomeController> logger)
         {
