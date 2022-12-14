@@ -1,7 +1,14 @@
 ﻿@model ShopApp.WebUI.Models.CategoryListViewModel
 
-
+<div class="list-group"></div>
 @foreach (var item in Model.kategoriler)
 {
-    <p>@item.Name</p>
+    <li><a 
+        asp-controller="Shop"
+        asp-action="AllList"
+        asp-route-category="@item.Name.ToLower()"
+        >@item.Name</a></li>
+   
+        //secilen categoryin rengini değiştirmek istersek yapılması gereken işlem
+        @*class="list-group-item list-group-item-action @(Model.SelectedCategory==item.Name.ToLower()?"active":"")">@item.Name*@
 }

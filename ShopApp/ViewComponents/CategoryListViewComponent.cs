@@ -12,6 +12,8 @@ namespace ShopApp.WebUI.ViewComponents
         {
             return View(new CategoryListViewModel()
             {
+                //categorilerden hangisini seçildigini bulmak için yapılan işlem
+                SelectedCategory = RouteData.Values["category"]?.ToString(),
                 kategoriler = ic.GetALl()
             });
         }

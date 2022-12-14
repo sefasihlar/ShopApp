@@ -17,10 +17,11 @@ namespace ShopApp.WebUI.Controllers
         {
             return View();
         }
-
-        public IActionResult AllList()
+        //AllList/category?page = 1
+        public IActionResult AllList(String category,int page = 1)
         {
-            var values = ip.GetALl();
+            const int pageSize = 3;
+            var values = ip.GetProductsByCategory(category,page, pageSize);
             return View(values);
         }
 
