@@ -1,0 +1,69 @@
+﻿@model ShopApp.WebUI.Models.ProductModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h3 style="text-align:center">Products</h3>
+<br />
+<div style="margin:0px 0px 0px 0px">
+    @if (Model.Products.Count()>0)
+    {
+        <table class="table align-middle mb-0 bg-white">
+            <thead class="bg-light">
+                <tr>
+                    <th>ID</th>
+                    <th>IMAGE</th>
+                    <th>NAME</th>
+                    <th>PRICE</th>
+                    <th>Status</th>
+                    <th>GENDER</th>
+                    <th></th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Products)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="/Theme/img/product/@item.ImageUrl"
+                             alt=""
+                             style="width: 45px; height: 45px"
+                             class="rounded-circle" />
+                            </div>
+                        </td>
+                        <td>
+                            <p class="fw-normal mb-1">@item.Name</p>
+                        </td>
+                        <td>
+                            <p class="fw-normal mb-1">@item.Price</p>
+                        </td>
+                        <td>
+                            <span class="badge badge-success rounded-pill d-inline">Active</span>
+                        </td>
+                        <td>@item.Gender</td>
+                        <td></td>
+                        <td>
+                            <a href="/admin/products/@item.Id" class="btn btn-link btn-rounded btn-sm fw-bold">EDIT</a>
+                            <button type="button" style="color:darkred;text-decoration:none"
+                            class="btn btn-link btn-rounded btn-sm fw-bold">
+                                DELETE
+                            </button>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    else
+    {
+         <div class="alert alert-danger">
+             <h4>No Products</h4>
+         </div>  
+    }
+    
+</div>
