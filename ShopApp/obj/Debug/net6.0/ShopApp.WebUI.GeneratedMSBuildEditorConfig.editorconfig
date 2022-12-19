@@ -8,105 +8,105 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ShopApp.WebUI
 build_property.RootNamespace = ShopApp.WebUI
-build_property.ProjectDir = C:\Users\ayyıldız\Desktop\CoreE-Trade\ShopApp\ShopApp\
+build_property.ProjectDir = C:\Users\ayyıldız\Desktop\Development\CoreE-Trade\ShopApp\ShopApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\ayyıldız\Desktop\CoreE-Trade\ShopApp\ShopApp
+build_property.MSBuildProjectDirectory = C:\Users\ayyıldız\Desktop\Development\CoreE-Trade\ShopApp\ShopApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Home/GelAll.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Home/GelAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZWxBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Home/Index.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Home/Privacy.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/Components/CategoryList/Default.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/Components/CategoryList/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2F0ZWdvcnlMaXN0XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/Error.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Banner.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Banner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxIb21lXEJhbm5lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Categories.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Categories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxIb21lXENhdGVnb3JpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Discount.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Discount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxIb21lXERpc2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Footer.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxIb21lXEZvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Instegram.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Instegram.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxIb21lXEluc3RlZ3JhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Navbar.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxIb21lXE5hdmJhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Products.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Products.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxIb21lXFByb2R1Y3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Services.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Services.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxIb21lXFNlcnZpY2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Trend.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialHome/Trend.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxIb21lXFRyZW5kLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialShop/Category.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/PartialShop/Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxTaG9wXENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shop/AllList.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shop/AllList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxBbGxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shop/CategoryList.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shop/CategoryList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxDYXRlZ29yeUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shop/Details.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shop/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shop/ManList.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shop/ManList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxNYW5MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shop/WomenList.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shop/WomenList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxXb21lbkxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/_ViewImports.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/_ViewStart.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ayyıldız/Desktop/CoreE-Trade/ShopApp/ShopApp/Views/Shared/_Layout.cshtml]
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-c3hhvtg2fg

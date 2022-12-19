@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LHB664/Tu4FaewTD6hEKSDuM6Jhb58p4fbUyv2x2TScs5+uj+9qLHDxKi4GvyeZGU6JCaoXHSixrweAdtGe93A==",
+  "dgSpecHash": "eaLdYughjGoyQETlG3W6VtdPM+31zH8DzvC0jELkW3bIkdzpfKYVlwt5lkHubQiKhdwZp3Xy22nr9EJHpRp/wg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\ShopApp.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\ShopApp.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ayyıldız\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ayyıldız\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

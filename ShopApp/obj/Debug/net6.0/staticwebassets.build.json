@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+TSyN3MoiVytZ0wcwLpEfGs52JMleIcbD6sSV7igS1U=",
+  "Hash": "DsLzg5Oza73O+qK3D2FhSnrVXk+YeS3KlxPFfwyJTfs=",
   "Source": "ShopApp.WebUI",
   "BasePath": "_content/ShopApp.WebUI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ShopApp.WebUI\\wwwroot",
       "Source": "ShopApp.WebUI",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ShopApp.WebUI.styles.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ShopApp.WebUI.styles.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "ShopApp.WebUI.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ShopApp.WebUI.styles.css"
+      "OriginalItemSpec": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ShopApp.WebUI.styles.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShopApp.WebUI.bundle.scp.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShopApp.WebUI.bundle.scp.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "ShopApp.WebUI.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShopApp.WebUI.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShopApp.WebUI.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\.DS_Store",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\.DS_Store",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/.DS_Store",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\blog.html",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\blog.html",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/blog.html",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\blog.html"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\blog-details.html",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\blog-details.html",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/blog-details.html",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\blog-details.html"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\checkout.html",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\checkout.html",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/checkout.html",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\checkout.html"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\contact.html",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\contact.html",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/contact.html",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\contact.html"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\bootstrap.min.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\elegant-icons.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\elegant-icons.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/css/elegant-icons.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\elegant-icons.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\font-awesome.min.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\font-awesome.min.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/css/font-awesome.min.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\font-awesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\jquery-ui.min.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\jquery-ui.min.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/css/jquery-ui.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\jquery-ui.min.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\magnific-popup.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\magnific-popup.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/css/magnific-popup.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\magnific-popup.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\owl.carousel.min.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/css/owl.carousel.min.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\slicknav.min.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\slicknav.min.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/css/slicknav.min.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\slicknav.min.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\style.css",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\css\\style.css",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/css/style.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\ElegantIcons.eot",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\ElegantIcons.eot",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/ElegantIcons.eot",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\ElegantIcons.eot"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\ElegantIcons.svg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\ElegantIcons.svg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/ElegantIcons.svg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\ElegantIcons.svg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\ElegantIcons.ttf",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\ElegantIcons.ttf",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/ElegantIcons.ttf",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\ElegantIcons.ttf"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\ElegantIcons.woff",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\ElegantIcons.woff",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/ElegantIcons.woff",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\ElegantIcons.woff"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\FontAwesome.otf",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/FontAwesome.otf",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.eot",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/fontawesome-webfont.eot",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.svg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/fontawesome-webfont.svg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/fontawesome-webfont.ttf",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.woff",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/fontawesome-webfont.woff",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/fonts/fontawesome-webfont.woff2",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\banner\\banner-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\banner\\banner-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/banner/banner-1.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\banner\\banner-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\banner\\banner-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\banner\\banner-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/banner/banner-2.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\banner\\banner-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\banner\\banner-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\banner\\banner-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/banner/banner-3.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\banner\\banner-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-1.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-10.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-10.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-10.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-10.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-2.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-3.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-4.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-5.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-5.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-5.jpg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-6.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-6.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-6.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-7.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-7.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-7.jpg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-8.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-8.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-8.jpg",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-9.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\blog-9.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/blog-9.jpg",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\blog-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\details\\blog-details.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\details\\blog-details.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/details/blog-details.jpg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\details\\blog-details.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\details\\comment-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\details\\comment-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/details/comment-1.jpg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\details\\comment-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\details\\comment-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\details\\comment-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/details/comment-2.jpg",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\details\\comment-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\details\\comment-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\details\\comment-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/details/comment-3.jpg",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\details\\comment-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\sidebar\\fp-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\sidebar\\fp-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/sidebar/fp-1.jpg",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\sidebar\\fp-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\sidebar\\fp-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\sidebar\\fp-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/sidebar/fp-2.jpg",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\sidebar\\fp-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\sidebar\\fp-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\blog\\sidebar\\fp-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/blog/sidebar/fp-3.jpg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\blog\\sidebar\\fp-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/categories/category-1.jpg",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\categories\\category-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/categories/category-2.jpg",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\categories\\category-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/categories/category-3.jpg",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\categories\\category-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/categories/category-4.jpg",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\categories\\category-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-5.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\categories\\category-5.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/categories/category-5.jpg",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\categories\\category-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\discount.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\discount.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/discount.jpg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\discount.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/instagram/insta-1.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\instagram\\insta-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/instagram/insta-2.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\instagram\\insta-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/instagram/insta-3.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\instagram\\insta-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/instagram/insta-4.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\instagram\\insta-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-5.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-5.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/instagram/insta-5.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\instagram\\insta-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-6.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\instagram\\insta-6.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/instagram/insta-6.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\instagram\\insta-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\logo.png",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\logo.png",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/logo.png",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-1.png",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-1.png",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/payment/payment-1.png",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\payment\\payment-1.png"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-2.png",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-2.png",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/payment/payment-2.png",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\payment\\payment-2.png"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-3.png",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-3.png",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/payment/payment-3.png",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\payment\\payment-3.png"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-4.png",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-4.png",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/payment/payment-4.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\payment\\payment-4.png"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-5.png",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\payment\\payment-5.png",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/payment/payment-5.png",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\payment\\payment-5.png"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\product-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\product-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/details/product-1.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\details\\product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\product-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\product-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/details/product-2.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\details\\product-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\product-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\product-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/details/product-3.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\details\\product-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\product-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\product-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/details/product-4.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\details\\product-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\thumb-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\thumb-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/details/thumb-1.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\details\\thumb-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\thumb-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\thumb-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/details/thumb-2.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\details\\thumb-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\thumb-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\thumb-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/details/thumb-3.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\details\\thumb-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\thumb-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\thumb-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/details/thumb-4.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\details\\thumb-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/product-1.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/product-2.jpg",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\product-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/product-3.jpg",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\product-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/product-4.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\product-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-5.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-5.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/product-5.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\product-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-6.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-6.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/product-6.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\product-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-7.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-7.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/product-7.jpg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\product-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-8.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-8.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/product-8.jpg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\product-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\related\\rp-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\related\\rp-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/related/rp-1.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\related\\rp-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\related\\rp-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\related\\rp-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/related/rp-2.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\related\\rp-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\related\\rp-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\related\\rp-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/related/rp-3.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\related\\rp-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\related\\rp-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\related\\rp-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/product/related/rp-4.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\related\\rp-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/product-1.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\product-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/product-2.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\product-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/product-3.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\product-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/product-4.jpg",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\product-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-5.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-5.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/product-5.jpg",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\product-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-6.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-6.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/product-6.jpg",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\product-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-7.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-7.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/product-7.jpg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\product-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-8.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-8.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/product-8.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\product-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/shop-1.jpg",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\shop-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/shop-2.jpg",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\shop-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/shop-3.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\shop-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/shop-4.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\shop-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-5.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-5.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/shop-5.jpg",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\shop-5.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-6.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-6.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/shop-6.jpg",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\shop-6.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-7.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-7.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/shop-7.jpg",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\shop-7.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-8.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-8.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/shop-8.jpg",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\shop-8.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-9.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\shop-9.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop/shop-9.jpg",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop\\shop-9.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop-cart\\cp-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop-cart\\cp-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop-cart/cp-1.jpg",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop-cart\\cp-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop-cart\\cp-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop-cart\\cp-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop-cart/cp-2.jpg",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop-cart\\cp-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop-cart\\cp-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop-cart\\cp-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop-cart/cp-3.jpg",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop-cart\\cp-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop-cart\\cp-4.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop-cart\\cp-4.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/shop-cart/cp-4.jpg",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\shop-cart\\cp-4.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\bs-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\bs-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/trend/bs-1.jpg",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\trend\\bs-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\bs-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\bs-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/trend/bs-2.jpg",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\trend\\bs-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\bs-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\bs-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/trend/bs-3.jpg",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\trend\\bs-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\f-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\f-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/trend/f-1.jpg",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\trend\\f-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\f-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\f-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/trend/f-2.jpg",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\trend\\f-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\f-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\f-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/trend/f-3.jpg",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\trend\\f-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\ht-1.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\ht-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/trend/ht-1.jpg",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\trend\\ht-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\ht-2.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\ht-2.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/trend/ht-2.jpg",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\trend\\ht-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\ht-3.jpg",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\trend\\ht-3.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/img/trend/ht-3.jpg",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\trend\\ht-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\index.html",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\index.html",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/index.html",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\index.html"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\bootstrap.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery.countdown.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery.countdown.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/jquery.countdown.min.js",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\jquery.countdown.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery.magnific-popup.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery.magnific-popup.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/jquery.magnific-popup.min.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\jquery.magnific-popup.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery.nicescroll.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery.nicescroll.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/jquery.nicescroll.min.js",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\jquery.nicescroll.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery.slicknav.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery.slicknav.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/jquery.slicknav.js",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\jquery.slicknav.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery-3.3.1.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery-3.3.1.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/jquery-3.3.1.min.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\jquery-3.3.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery-ui.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\jquery-ui.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/jquery-ui.min.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\jquery-ui.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\main.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\main.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/main.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\mixitup.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\mixitup.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/mixitup.min.js",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\mixitup.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\js\\owl.carousel.min.js",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\main.html",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\main.html",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/main.html",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\main.html"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\product-details.html",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\product-details.html",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/product-details.html",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\product-details.html"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\readme.txt",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\readme.txt",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/readme.txt",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\readme.txt"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_base.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_base.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_base.scss",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_base.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_blog.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_blog.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_blog.scss",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_blog.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_blog-details.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_blog-details.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_blog-details.scss",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_blog-details.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_blog-sidebar.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_blog-sidebar.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_blog-sidebar.scss",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_blog-sidebar.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_breadcrumb.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_breadcrumb.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_breadcrumb.scss",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_breadcrumb.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_categories.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_categories.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_categories.scss",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_categories.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_checkout.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_checkout.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_checkout.scss",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_checkout.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_contact.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_contact.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_contact.scss",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_contact.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_footer.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_footer.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_footer.scss",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_footer.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_header.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_header.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_header.scss",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_header.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_home-page.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_home-page.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_home-page.scss",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_home-page.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_mixins.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_mixins.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_mixins.scss",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_mixins.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_product.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_product.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_product.scss",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_product.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_product-details.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_product-details.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_product-details.scss",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_product-details.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_responsive.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_responsive.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_responsive.scss",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_responsive.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_shop.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_shop.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_shop.scss",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_shop.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_shop-cart.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_shop-cart.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_shop-cart.scss",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_shop-cart.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_variable.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\_variable.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/_variable.scss",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\_variable.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\style.scss",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\sass\\style.scss",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/sass/style.scss",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\sass\\style.scss"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\shop.html",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\shop.html",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/shop.html",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\shop.html"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\shop-cart.html",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\shop-cart.html",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/shop-cart.html",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\shop-cart.html"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\barfiller-master.zip",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\barfiller-master.zip",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/Source/barfiller-master.zip",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\Source\\barfiller-master.zip"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\bootstrap-4.2.1-dist.zip",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\bootstrap-4.2.1-dist.zip",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/Source/bootstrap-4.2.1-dist.zip",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\Source\\bootstrap-4.2.1-dist.zip"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\font-awesome-4.7.0.zip",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\font-awesome-4.7.0.zip",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/Source/font-awesome-4.7.0.zip",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\Source\\font-awesome-4.7.0.zip"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\jQuery.countdown-master.zip",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\jQuery.countdown-master.zip",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/Source/jQuery.countdown-master.zip",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\Source\\jQuery.countdown-master.zip"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\Magnific-Popup-master.zip",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\Magnific-Popup-master.zip",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/Source/Magnific-Popup-master.zip",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\Source\\Magnific-Popup-master.zip"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\OwlCarousel2-2.3.4.zip",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\OwlCarousel2-2.3.4.zip",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/Source/OwlCarousel2-2.3.4.zip",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\Theme\\Source\\OwlCarousel2-2.3.4.zip"
     },
     {
-      "Identity": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\SlickNav-master.zip",
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\Source\\SlickNav-master.zip",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
       "BasePath": "_content/ShopApp.WebUI",
       "RelativePath": "Theme/Source/SlickNav-master.zip",
       "AssetKind": "All",

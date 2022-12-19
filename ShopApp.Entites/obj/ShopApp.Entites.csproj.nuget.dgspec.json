@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj": {}
+    "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj": {
+    "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj",
+        "projectUniqueName": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj",
         "projectName": "ShopApp.Entites",
-        "projectPath": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj",
+        "projectPath": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj",
         "packagesPath": "C:\\Users\\ayyıldız\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\obj\\",
+        "outputPath": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayyıldız\\AppData\\Roaming\\NuGet\\NuGet.Config",

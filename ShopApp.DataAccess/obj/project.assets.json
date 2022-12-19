@@ -9873,11 +9873,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
       "projectName": "ShopApp.DataAccess",
-      "projectPath": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
+      "projectPath": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
       "packagesPath": "C:\\Users\\ayyıldız\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ayyıldız\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9894,8 +9894,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj": {
-              "projectPath": "C:\\Users\\ayyıldız\\Desktop\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj"
+            "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj": {
+              "projectPath": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp.Entites\\ShopApp.Entites.csproj"
             }
           }
         }

@@ -20,9 +20,21 @@ namespace ShopApp.WebUI.Controllers
         //AllList/category?page = 1
         public IActionResult AllList(String category,int page = 1)
         {
-            const int pageSize = 3;
-            var values = ip.GetProductsByCategory(category,page, pageSize);
-            return View(values);
+
+
+            const int pageSize = 8;
+            return View(new ProductModel()
+            {
+                PageInfo = new PageInfo()
+                {
+                    TotalItems = ip.GetCountByCategory(category),
+                    CurrentPage = page,
+                    ItemsPerPage = pageSize,
+                    CurrenCategory = category,
+                    
+                },
+                Products = ip.GetProductsByCategory(category,page,pageSize)
+            });
         }
 
         public IActionResult ManList()

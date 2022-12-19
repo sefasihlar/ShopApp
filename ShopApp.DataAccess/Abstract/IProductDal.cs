@@ -10,6 +10,7 @@ namespace ShopApp.DataAccess.Abstract
 {
     public interface IProductDal:IRepository<Product>
     {
+        int GetCountByCategory(string category);
         IEnumerable<Product> GetPopularProduct();
         List<Product> GetProductsByCategory(string category, int page,int pageSize);
     }

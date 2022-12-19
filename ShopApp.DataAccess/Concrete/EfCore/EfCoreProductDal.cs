@@ -3,6 +3,7 @@ using ShopApp.DataAccess.Abstract;
 using ShopApp.Entites;
 using System;
 using System.Collections.Generic;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
@@ -14,6 +15,27 @@ namespace ShopApp.DataAccess.Concrete.EfCore
 
     public class EfCoreProductDal : EfCoreGenericRepository<Product, ShopContext>, IProductDal
     {
+        public int GetCountByCategory(string category)
+        {
+            using (var contex = new ShopContext())
+
+            {
+                //ekstra sorgu gönderebilmek için "asQueryable" yi kullandik
+                var products = contex.Products.AsQueryable();
+                //category bilgisi eger null degilse categoryle gore filtreleme yaparız
+                if (!string.IsNullOrEmpty(category))
+                {
+                    products = products
+                        .Include(x => x.ProductCategories)
+                        .ThenInclude(x => x.Category)
+                        //"Any"bize true yada false deger dondurur
+                        .Where(x => x.ProductCategories.Any(a => a.Category.Name.ToLower() == category.ToLower()));
+                }
+                //sayisal bir değer döndürsün
+                return products.Count();
+            };
+        }
+
         public IEnumerable<Product> GetPopularProduct()
         {
             throw new NotImplementedException();
