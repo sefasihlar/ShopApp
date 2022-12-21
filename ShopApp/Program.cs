@@ -37,7 +37,17 @@ app.UseAuthorization();
 //categorilerileri göre filtreleme işlemi yapılması için bu işlemler yeniden tanimlanmalı
 app.UseMvc(Route =>
 {
-  
+    Route.MapRoute(
+       name: "adminProducts",
+       template: "admin/products",
+       defaults: new { controller = "Admin", action = "Index" }
+       );
+
+    Route.MapRoute(
+       name: "adminProductsEdit",
+       template: "admin/products/{id?}",
+       defaults: new { controller = "Admin", action = "Edit" }
+       );
 
     Route.MapRoute(
        name: "AllList",

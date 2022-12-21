@@ -20,9 +20,39 @@ namespace ShopApp.Controllers
 
         public IActionResult Index()
         {
-            var values = ip.GetALl().Where(x=> x.Price >=1000).ToList();
+            var values = ip.GetALl().Where(x=> x.Price >=10000 & x.Condition=="True").ToList();
             return View(values);
         }
+
+        //Galeri kısmı component kısmıyla yapılcak --start
+        public IActionResult Womans()
+        {
+            var values = ip.GetALl().Where(x => x.Price >= 10000 & x.Condition == "True").ToList();
+            return View(values);
+        }
+
+        public IActionResult Mans()
+        {
+            var values = ip.GetALl().Where(x => x.Price >= 10000 & x.Condition == "True").ToList();
+            return View(values);
+        }
+        public IActionResult Kids()
+        {
+            var values = ip.GetALl().Where(x => x.Price >= 10000 & x.Condition == "True").ToList();
+            return View(values);
+        }
+        public IActionResult Accessories()
+        {
+            var values = ip.GetALl().Where(x => x.Price >= 10000 & x.Condition == "True").ToList();
+            return View(values);
+        }
+        public IActionResult Cosmatics()
+        {
+            var values = ip.GetALl().Where(x => x.Price >= 10000 & x.Condition == "True").ToList();
+            return View(values);
+        }
+
+        //galeri kısmı --finish
 
         public IActionResult Privacy()
         {

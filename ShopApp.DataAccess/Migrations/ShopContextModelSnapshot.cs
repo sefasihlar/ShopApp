@@ -45,6 +45,9 @@ namespace ShopApp.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("Condition")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Gender")
                         .HasColumnType("nvarchar(max)");
 
@@ -64,15 +67,15 @@ namespace ShopApp.DataAccess.Migrations
 
             modelBuilder.Entity("ShopApp.Entites.ProductCategory", b =>
                 {
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.HasKey("ProductId", "CategoryId");
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
 
-                    b.HasIndex("CategoryId");
+                    b.HasKey("CategoryId", "ProductId");
+
+                    b.HasIndex("ProductId");
 
                     b.ToTable("ProductCategory");
                 });

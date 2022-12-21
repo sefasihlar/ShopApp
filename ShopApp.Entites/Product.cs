@@ -13,6 +13,8 @@ namespace ShopApp.Entites
         public string? ImageUrl { get; set; }
         public decimal Price { get; set; }
         public string? Gender { get; set; }
+        public string? Condition { get; set; }
+
 
         public List<ProductCategory>? ProductCategories { get; set; }
     }

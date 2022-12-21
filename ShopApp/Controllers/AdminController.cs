@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 using ShopApp.Business.Concrete;
 using ShopApp.DataAccess.Abstract;
 using ShopApp.DataAccess.Concrete.EfCore;
@@ -36,7 +37,62 @@ namespace ShopApp.WebUI.Controllers
 
             ip.Create(values);
 
-            return Redirect("Index");    
+            return RedirectToAction("Index");    
+        }
+        [HttpPost]
+        public IActionResult ProductDelete(int id)
+        {
+            var values = ip.GetById(id);
+            ip.Delete(values);
+            return RedirectToAction("Index", "Admin");
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var values = ip.GetById((int)id);
+
+            if (values == null)
+            {
+                return NotFound();
+            }
+    
+            var model = new AddProductModel()
+            {
+                Id = values.Id,
+                    Name = values.Name,
+                        Price = values.Price,
+                            ImageUrl = values.ImageUrl,
+                                Gender = values.Gender,
+                                    Condition = values.Condition,
+                
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(AddProductModel model)
+        {
+            var entity = ip.GetById(model.Id);
+
+            if (entity == null)
+            {
+                return NotFound();
+            }
+
+            entity.Name= model.Name;
+            entity.Price= model.Price;
+            entity.Gender = model.Gender;
+            entity.ImageUrl = model.ImageUrl;
+            entity.Condition = model.Condition;
+            ip.Update(entity);
+            return RedirectToAction("Index");
         }
     }
 }

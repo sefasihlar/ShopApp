@@ -22,7 +22,7 @@ namespace ShopApp.WebUI.Controllers
         {
 
 
-            const int pageSize = 8;
+            const int pageSize = 9;
             return View(new ProductModel()
             {
                 PageInfo = new PageInfo()
@@ -39,13 +39,13 @@ namespace ShopApp.WebUI.Controllers
 
         public IActionResult ManList()
         {
-            var values = ip.GetALl().Where(x => x.Gender == "E").ToList();
+            var values = ip.GetALl().Where(x => x.Gender == "Male" & x.Condition=="True").ToList();
             return View(values);
         }
 
         public IActionResult WomenList()
         {
-            var values = ip.GetALl().Where(x => x.Gender == "K").ToList();
+            var values = ip.GetALl().Where(x => x.Gender == "Female" & x.Condition=="True").ToList();
             return View(values);
         }
 
