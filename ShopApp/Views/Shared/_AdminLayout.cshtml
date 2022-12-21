@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ashion Template">
+    <meta name="keywords" content="Ashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ashion | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="/Theme/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/Theme/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="/Theme/css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="/Theme/css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="/Theme/css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="/Theme/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="/Theme/css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="/Theme/css/StyleSheet.css" type="text/css">
+    <link rel="stylesheet" href="/Theme/css/style.css" type="text/css">
+</head>
+<body>
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+    @await Html.PartialAsync("PartialAdmin/Navbar")
+
+    @RenderBody()
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - ShopApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="/Theme/js/jquery-3.3.1.min.js"></script>
+    <script src="/Theme/js/bootstrap.min.js"></script>
+    <script src="/Theme/js/jquery.magnific-popup.min.js"></script>
+    <script src="/Theme/js/jquery-ui.min.js"></script>
+    <script src="/Theme/js/mixitup.min.js"></script>
+    <script src="/Theme/js/jquery.countdown.min.js"></script>
+    <script src="/Theme/js/jquery.slicknav.js"></script>
+    <script src="/Theme/js/owl.carousel.min.js"></script>
+    <script src="/Theme/js/jquery.nicescroll.min.js"></script>
+    <script src="/Theme/js/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

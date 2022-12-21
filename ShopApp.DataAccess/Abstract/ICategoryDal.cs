@@ -10,6 +10,6 @@ namespace ShopApp.DataAccess.Abstract
 {
     public interface ICategoryDal:IRepository<Category>
     {
-       
+        Category GetByIdWithProducuts(int id);
     }
 }

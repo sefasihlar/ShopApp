@@ -1,0 +1,57 @@
+﻿@model ShopApp.WebUI.Models.CategoryListModel
+@{
+    ViewData["Title"] = "CategoryList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h3 style="text-align:center">Categores</h3>
+<br />
+<div style="margin:0px 300px 0px 300px">
+    @if (Model.Categories.Count() > 0)
+    {
+        <br />
+        <a href="/Admin/CreateCategory" class="btn btn-link  btn-pill btn-md fw-bold bg-success" style="color:white;margin-bottom:10px;text-decoration:none">Create</a>
+        <br />
+        <table class="table align-middle mb-0 bg-white">
+            <thead class="bg-light">
+                <tr>
+                    <th>ID</th>
+                    <th>NAME</th>
+                    <th style="">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Categories)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>
+                            <p class="fw-normal mb-1">@item.Name</p>
+                        </td>
+                        <td>
+                            <a href="/admin/editcategory/@item.Id" class="btn btn-link badge-primary btn-pill btn-sm fw-bold">EDIT</a>
+                            <form action="/admin/DeleteCategory/" method="post" style="display:inline">
+                                <input type="hidden" name="id" value="@item.Id" />
+                                <button type="submit" style="color:white;text-decoration:none"
+                                class="btn btn-link badge-danger btn-pill btn-sm fw-bold">
+                                    DELETE
+                                </button>
+                            </form>
+
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            <h4>No Products</h4>
+        </div>
+    }
+
+</div>
+

@@ -46,7 +46,7 @@ app.UseMvc(Route =>
     Route.MapRoute(
        name: "adminProductsEdit",
        template: "admin/products/{id?}",
-       defaults: new { controller = "Admin", action = "Edit" }
+       defaults: new { controller = "Admin", action = "EditProduct" }
        );
 
     Route.MapRoute(
