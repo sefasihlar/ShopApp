@@ -34,7 +34,6 @@
             <div style="margin:0px 30px 0px 30px">
                 @if (Model.Products.Count() > 0)
                 {
-                    <a href="/Admin/CreateProdcut" class="btn btn-link  btn-pill btn-md fw-bold bg-success" style="color:white;margin-bottom:10px;text-decoration:none">Create</a>
                     <br />
                     <table class="table align-middle mb-0 bg-white">
                         <thead class="bg-light">
@@ -85,8 +84,9 @@
                                     <td></td>
                                     <td>
                                         <a href="/admin/products/@item.Id" class="btn btn-link badge-primary btn-pill btn-sm fw-bold">EDIT</a>
-                                        <form action="/admin/ProductDelete/" method="post" style="display:inline">
+                                        <form action="/admin/deletefromcategory/" method="post" style="display:inline">
                                             <input type="hidden" name="id" value="@item.Id" />
+                                            <input type="hidden" name="categoryid" value="@Model.Id" />
                                             <button type="submit" style="color:white;text-decoration:none"
                                             class="btn btn-link badge-danger btn-pill btn-sm fw-bold">
                                                 DELETE

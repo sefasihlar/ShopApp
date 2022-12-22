@@ -1,4 +1,7 @@
-﻿namespace ShopApp.WebUI.Models
+﻿using Microsoft.Build.Graph;
+using ShopApp.Entites;
+
+namespace ShopApp.WebUI.Models
 {
     public class AddProductModel
     {
@@ -8,5 +11,8 @@
         public decimal Price { get; set; }
         public string? Gender { get; set; }
         public string? Condition { get; set; }
+
+        public List<Category> Categories { get; set; }
+        public List<Category> SelectedCategories { get; set; }
     }
 }

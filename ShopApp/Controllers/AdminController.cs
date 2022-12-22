@@ -82,29 +82,33 @@ namespace ShopApp.WebUI.Controllers
                 return NotFound();
             }
 
-            var values = ip.GetById((int)id);
+            var values = ip.GetByIdWithCategories((int)id);
 
             if (values == null)
             {
                 return NotFound();
             }
-    
+
             var model = new AddProductModel()
             {
                 Id = values.Id,
-                    Name = values.Name,
-                        Price = values.Price,
-                            ImageUrl = values.ImageUrl,
-                                Gender = values.Gender,
-                                    Condition = values.Condition,
-                
+                Name = values.Name,
+                Price = values.Price,
+                ImageUrl = values.ImageUrl,
+                Gender = values.Gender,
+                Condition = values.Condition,
+                SelectedCategories = values.ProductCategories.Select(x => x.Category).ToList()
+
             };
+
+         
+            ViewBag.Categories = _category.GetALl();
 
             return View(model);
         }
 
         [HttpPost]
-        public IActionResult EditProduct(AddProductModel model)
+        public IActionResult EditProduct(AddProductModel model, int[] categoryIds)
         {
             var entity = ip.GetById(model.Id);
 
@@ -118,7 +122,7 @@ namespace ShopApp.WebUI.Controllers
             entity.Gender = model.Gender;
             entity.ImageUrl = model.ImageUrl;
             entity.Condition = model.Condition;
-            ip.Update(entity);
+            ip.Update(entity,categoryIds);
             return RedirectToAction("Index","Admin");
         }
 
@@ -190,6 +194,13 @@ namespace ShopApp.WebUI.Controllers
             
 
             return RedirectToAction("CategoryList", "Admin");
+        }
+
+        [HttpPost]
+        public IActionResult DeleteFromCategory(int id,int categoryid)
+        {
+            _category.DeleteFromCategory(id, categoryid);
+            return Redirect("/admin/editcategory/"+categoryid);
         }
     }
 }
