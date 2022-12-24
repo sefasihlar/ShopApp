@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using ShopApp.Business.Concrete;
 using ShopApp.DataAccess.Abstract;
@@ -8,6 +9,7 @@ using ShopApp.WebUI.Models;
 
 namespace ShopApp.WebUI.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         ProductManager ip = new ProductManager(new EfCoreProductDal());
@@ -46,25 +48,37 @@ namespace ShopApp.WebUI.Controllers
             });
         }
         [HttpGet]
-        public IActionResult CreateProdcut()
+        public IActionResult CreateProduct()
         {
-            return View();
+            return View(new AddProductModel()
+            {
+
+            });
         }
 
         [HttpPost]
         public IActionResult CreateProduct(AddProductModel model)
         {
-            var values = new Product()
+            if (ModelState.IsValid)
             {
-                Name = model.Name,
-                Price = model.Price,
-                Gender = model.Gender,
-                ImageUrl = model.ImageUrl,
-            };
+                var values = new Product()
+                {
+                    Name = model.Name,
+                    Price = model.Price,
+                    Gender = model.Gender,
+                    ImageUrl = model.ImageUrl,
+                };
 
-            ip.Create(values);
+                ip.Create(values);
 
-            return RedirectToAction("Index");    
+                return RedirectToAction("Index", "Admin");
+            }
+
+            return View(model);
+
+
+
+
         }
         [HttpPost]
         public IActionResult ProductDelete(int id)
@@ -101,15 +115,17 @@ namespace ShopApp.WebUI.Controllers
 
             };
 
-         
             ViewBag.Categories = _category.GetALl();
 
             return View(model);
+
+
         }
 
         [HttpPost]
-        public IActionResult EditProduct(AddProductModel model, int[] categoryIds)
+        public async Task<IActionResult> EditProduct(AddProductModel model, int[] categoryIds, IFormFile file)
         {
+
             var entity = ip.GetById(model.Id);
 
             if (entity == null)
@@ -117,14 +133,34 @@ namespace ShopApp.WebUI.Controllers
                 return NotFound();
             }
 
-            entity.Name= model.Name;
-            entity.Price= model.Price;
+            entity.Name = model.Name;
+            entity.Price = model.Price;
             entity.Gender = model.Gender;
-            entity.ImageUrl = model.ImageUrl;
             entity.Condition = model.Condition;
-            ip.Update(entity,categoryIds);
-            return RedirectToAction("Index","Admin");
+            if (file != null)
+            {
+                entity.ImageUrl = file.FileName;
+
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\Theme\\img\\product", file.FileName);
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                };
+
+            }
+
+
+            ip.Update(entity, categoryIds);
+            return RedirectToAction("Index", "Admin");
+
+
+
+            ViewBag.Categories = _category.GetALl();
+
+            return View(model);
+
         }
+
 
         public IActionResult CategoryList()
         {
@@ -180,7 +216,7 @@ namespace ShopApp.WebUI.Controllers
 
         public IActionResult DeleteCategory(int id)
         {
-            
+
             var values = _category.GetById(id);
             if (values != null)
             {
@@ -191,16 +227,16 @@ namespace ShopApp.WebUI.Controllers
             {
                 return NotFound();
             }
-            
+
 
             return RedirectToAction("CategoryList", "Admin");
         }
 
         [HttpPost]
-        public IActionResult DeleteFromCategory(int id,int categoryid)
+        public IActionResult DeleteFromCategory(int id, int categoryid)
         {
             _category.DeleteFromCategory(id, categoryid);
-            return Redirect("/admin/editcategory/"+categoryid);
+            return Redirect("/admin/editcategory/" + categoryid);
         }
     }
 }

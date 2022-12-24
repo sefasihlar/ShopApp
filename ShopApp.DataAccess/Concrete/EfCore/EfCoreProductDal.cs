@@ -86,6 +86,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
                     product.ImageUrl = entity.ImageUrl;
                     product.Price = entity.Price;
                     product.Gender = entity.Gender;
+                    product.Condition = entity.Condition;
 
                     product.ProductCategories = categoryIds.Select(x => new ProductCategory()
                     {

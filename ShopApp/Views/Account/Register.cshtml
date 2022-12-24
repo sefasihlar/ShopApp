@@ -1,0 +1,69 @@
+﻿@model ShopApp.WebUI.Models.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <br />
+    <h3>Create User</h3>
+    <br />
+    <hr />
+    @section  Scripts{
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    }
+
+
+        <div class="row">
+            <div class="col-md-8">
+                <form asp-controller="Account" asp-action="Register" method="post">
+                    <div asp-validation-summary="All" class="text-danger"></div>
+                    <div class="form-group row">
+                        <label asp-for="FullName" class="col-md-2 col-form-label"></label>
+                        <div class="col-md-10">
+                            <input asp-for="FullName" value="@Model.FullName" class="form-control" />
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" asp-for="UserName"></label>
+                        <div class="col-md-10">
+                            <input asp-for="UserName" value="@Model.UserName" class="form-control" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" asp-for="Password"></label>
+                        <div class="col-md-10">
+                            <input asp-for="Password" value="@Model.Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" asp-for="RePassword"></label>
+                        <div class="col-md-10">
+                            <input asp-for="RePassword" value="@Model.RePassword" class="form-control" />
+                            <span asp-validation-for="RePassword" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" asp-for="Email"></label>
+                        <div class="col-md-10">
+                            <input asp-for="Email" value="@Model.Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label"></label>
+                        <div class="col-md-10 offset-md-2">
+                            <button type="submit" value="" class="btn btn-primary">Save Product</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+

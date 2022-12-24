@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DsLzg5Oza73O+qK3D2FhSnrVXk+YeS3KlxPFfwyJTfs=",
+  "Hash": "3XKs055avjY3UXYdctOYwL/WZUQilLppLuAfth8zQzo=",
   "Source": "ShopApp.WebUI",
   "BasePath": "_content/ShopApp.WebUI",
   "Mode": "Default",
@@ -1292,6 +1292,23 @@
       "OriginalItemSpec": "wwwroot\\Theme\\img\\payment\\payment-5.png"
     },
     {
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\2190943.jpg",
+      "SourceId": "ShopApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp.WebUI",
+      "RelativePath": "Theme/img/product/2190943.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\2190943.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\details\\product-1.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
@@ -1426,6 +1443,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\details\\thumb-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\Menu.png",
+      "SourceId": "ShopApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp.WebUI",
+      "RelativePath": "Theme/img/product/Menu.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\Menu.png"
     },
     {
       "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\product-1.jpg",
@@ -1630,6 +1664,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\related\\rp-4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\rp-1.jpg",
+      "SourceId": "ShopApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp.WebUI",
+      "RelativePath": "Theme/img/product/rp-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\rp-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\product\\rp-3.jpg",
+      "SourceId": "ShopApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\",
+      "BasePath": "_content/ShopApp.WebUI",
+      "RelativePath": "Theme/img/product/rp-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\img\\product\\rp-3.jpg"
     },
     {
       "Identity": "C:\\Users\\ayyıldız\\Desktop\\Development\\CoreE-Trade\\ShopApp\\ShopApp\\wwwroot\\Theme\\img\\shop\\product-1.jpg",

@@ -1,7 +1,19 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
 using ShopApp.DataAccess.Concrete.EfCore;
+using ShopApp.Entites;
+using System.Configuration;
+using System.Data.Entity.Core.EntityClient;
+using System.Security.Principal;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<ShopContext>();
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<ShopContext>();
 // Add services to the container.
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
@@ -26,6 +38,7 @@ if (!app.Environment.IsDevelopment())
 
     SeedDatabase.seed();
 }
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

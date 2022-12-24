@@ -1,0 +1,68 @@
+﻿@model ShopApp.WebUI.Models.AddProductModel
+@{
+    ViewData["Title"] = "CreateProdcut";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="container">
+    <br />
+    <h3>Create Prodcut</h3>
+    <br />
+    <hr />
+    @section  Scripts{
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    }
+
+
+        <div class="row">
+            <div class="col-md-8">
+                <form asp-controller="Admin" asp-action="CreateProduct" method="post">
+                    <div class="form-group row">
+                        <label asp-for="Name" class="col-md-2 col-form-label"></label>
+                        <div class="col-md-10">
+                            <input asp-for="Name" value="@Model.Name" class="form-control" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" asp-for="ImageUrl"></label>
+                        <div class="col-md-10">
+                            <input asp-for="ImageUrl" value="@Model.ImageUrl" class="form-control" />
+                            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" asp-for="Price"></label>
+                        <div class="col-md-10">
+                            <input asp-for="Price" value="@Model.Price" class="form-control" />
+                            <span asp-validation-for="Price" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" asp-for="Gender"></label>
+                        <div class="col-md-10">
+                            <input asp-for="Gender" value="@Model.Gender" class="form-control" />
+                            <span asp-validation-for="Gender" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label" asp-for="Condition"></label>
+                        <div class="col-md-10">
+                            <input asp-for="Condition" value="@Model.Condition" class="form-control" />
+                            <span asp-validation-for="Condition" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 col-form-label"></label>
+                        <div class="col-md-10 offset-md-2">
+                            <button type="submit" value="" class="btn btn-primary">Save Product</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
