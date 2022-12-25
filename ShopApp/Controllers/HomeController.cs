@@ -8,7 +8,7 @@ using System.Diagnostics;
 
 namespace ShopApp.Controllers
 {
-
+   
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;

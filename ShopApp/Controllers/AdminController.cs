@@ -9,7 +9,7 @@ using ShopApp.WebUI.Models;
 
 namespace ShopApp.WebUI.Controllers
 {
-    [Authorize]
+ 
     public class AdminController : Controller
     {
         ProductManager ip = new ProductManager(new EfCoreProductDal());

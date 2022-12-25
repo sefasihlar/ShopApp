@@ -35,6 +35,8 @@
       "ShopApp.WebUI/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.4.4",
+          "FGS.Autofac.AspNetCore.Mvc.Routing": "2020.8.3.2",
+          "Microsoft.AspNetCore.Authorization": "6.0.10",
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.10",
@@ -53,7 +55,7 @@
           "Microsoft.AspNetCore.Authentication.Core.Reference": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.Reference": "6.0.0.0",
           "Microsoft.AspNetCore.Authentication.OAuth": "6.0.0.0",
-          "Microsoft.AspNetCore.Authorization": "6.0.0.0",
+          "Microsoft.AspNetCore.Authorization.Reference": "6.0.0.0",
           "Microsoft.AspNetCore.Authorization.Policy": "6.0.0.0",
           "Microsoft.AspNetCore.Components.Authorization": "6.0.0.0",
           "Microsoft.AspNetCore.Components": "6.0.0.0",
@@ -90,7 +92,7 @@
           "Microsoft.AspNetCore.Identity.Reference": "6.0.0.0",
           "Microsoft.AspNetCore.Localization": "6.0.0.0",
           "Microsoft.AspNetCore.Localization.Routing": "6.0.0.0",
-          "Microsoft.AspNetCore.Metadata": "6.0.0.0",
+          "Microsoft.AspNetCore.Metadata.Reference": "6.0.0.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "6.0.0.0",
           "Microsoft.AspNetCore.Mvc.ApiExplorer": "6.0.0.0",
           "Microsoft.AspNetCore.Mvc.Core": "6.0.0.0",
@@ -343,6 +345,17 @@
           "ShopApp.WebUI.dll": {}
         }
       },
+      "Autofac/4.9.1": {
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "assemblyVersion": "4.9.1.0",
+            "fileVersion": "4.9.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {}
+        }
+      },
       "EntityFramework/6.4.4": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
@@ -364,6 +377,107 @@
         "compile": {
           "lib/netstandard2.1/EntityFramework.SqlServer.dll": {},
           "lib/netstandard2.1/EntityFramework.dll": {}
+        }
+      },
+      "FGS.Autofac.AspNetCore.Mvc.Routing/2020.8.3.2": {
+        "dependencies": {
+          "Autofac": "4.9.1",
+          "FGS.Autofac.Registration.Extensions": "2020.8.3.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.AspNetCore.Mvc.Routing.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.AspNetCore.Mvc.Routing.dll": {}
+        }
+      },
+      "FGS.Autofac.CompositionRoot/2020.8.3.2": {
+        "dependencies": {
+          "FGS.Autofac.CompositionRoot.Abstractions": "2020.8.3.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.dll": {}
+        }
+      },
+      "FGS.Autofac.CompositionRoot.Abstractions/2020.8.3.2": {
+        "dependencies": {
+          "Autofac": "4.9.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.Abstractions.dll": {}
+        }
+      },
+      "FGS.Autofac.DynamicScoping/2020.8.3.2": {
+        "dependencies": {
+          "Autofac": "4.9.1",
+          "FGS.Autofac.CompositionRoot": "2020.8.3.2",
+          "FGS.Autofac.CompositionRoot.Abstractions": "2020.8.3.2",
+          "FGS.Autofac.DynamicScoping.Abstractions": "2020.8.3.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.dll": {}
+        }
+      },
+      "FGS.Autofac.DynamicScoping.Abstractions/2020.8.3.2": {
+        "dependencies": {
+          "Autofac": "4.9.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.Abstractions.dll": {}
+        }
+      },
+      "FGS.Autofac.Registration.Extensions/2020.8.3.2": {
+        "dependencies": {
+          "Autofac": "4.9.1",
+          "FGS.Autofac.DynamicScoping": "2020.8.3.2",
+          "FGS.Reflection.Extensions": "2020.8.3.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.Registration.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.Registration.Extensions.dll": {}
+        }
+      },
+      "FGS.Reflection.Extensions/2020.8.3.2": {
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Reflection.Extensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Reflection.Extensions.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -412,7 +526,7 @@
           "Microsoft.AspNetCore.DataProtection": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
           "Microsoft.Extensions.Options": "6.0.0",
           "Microsoft.Extensions.WebEncoders": "2.2.0"
         }
@@ -420,7 +534,7 @@
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
           "Microsoft.Extensions.Options": "6.0.0"
         }
       },
@@ -434,6 +548,19 @@
           "Microsoft.AspNetCore.Authentication.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.0",
           "Microsoft.AspNetCore.Http.Extensions": "2.2.0"
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/6.0.10": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "6.0.10",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1022.47617"
+          }
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.10": {
@@ -461,7 +588,7 @@
           "Microsoft.AspNetCore.DataProtection.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
           "Microsoft.Extensions.Options": "6.0.0",
           "Microsoft.Win32.Registry": "4.7.0",
           "System.Security.Cryptography.Xml": "4.5.0",
@@ -531,6 +658,14 @@
         },
         "compile": {
           "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/6.0.10": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.1022.47617"
+          }
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.10": {
@@ -1544,7 +1679,7 @@
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
           "Microsoft.Extensions.Options": "6.0.0",
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
@@ -1601,7 +1736,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "Microsoft.Extensions.FileProviders.Abstractions": "2.2.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0"
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2"
         }
       },
       "Microsoft.Extensions.Identity.Core/6.0.10": {
@@ -1634,12 +1769,19 @@
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "6.0.1",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
           "Microsoft.Extensions.Options": "6.0.0",
           "System.Diagnostics.DiagnosticSource": "6.0.0"
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {},
+      "Microsoft.Extensions.Logging.Abstractions/6.0.2": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.922.41905"
+          }
+        }
+      },
       "Microsoft.Extensions.ObjectPool/2.2.0": {},
       "Microsoft.Extensions.Options/6.0.0": {
         "dependencies": {
@@ -3185,7 +3327,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Authorization/6.0.0.0": {
+      "Microsoft.AspNetCore.Authorization.Reference/6.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Authorization.dll": {}
         },
@@ -3407,7 +3549,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Metadata/6.0.0.0": {
+      "Microsoft.AspNetCore.Metadata.Reference/6.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Metadata.dll": {}
         },
@@ -4885,12 +5027,68 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Autofac/4.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L92DMQxpy4Xw3IypXxL8Z4NHt+qIkB1e0NB2OJ9u105Xp5sVsZSJ04YtYyubmM3KG8aC+WpyBhN14XcjPx5gLg==",
+      "path": "autofac/4.9.1",
+      "hashPath": "autofac.4.9.1.nupkg.sha512"
+    },
     "EntityFramework/6.4.4": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "path": "entityframework/6.4.4",
       "hashPath": "entityframework.6.4.4.nupkg.sha512"
+    },
+    "FGS.Autofac.AspNetCore.Mvc.Routing/2020.8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OGOqOeKITHPUdtFPoYFNj+dgQt8gJNV7yqML2zabU1GtJJoA8ZN/h01uVk5nGnL8hXsa5qB1iSkpiBxz2E0UQg==",
+      "path": "fgs.autofac.aspnetcore.mvc.routing/2020.8.3.2",
+      "hashPath": "fgs.autofac.aspnetcore.mvc.routing.2020.8.3.2.nupkg.sha512"
+    },
+    "FGS.Autofac.CompositionRoot/2020.8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a1ktg0kmxA+lc5dhXXfArI6ZNYN/ajy5hVCfLGGIk1uXp7C5JIpJfel/SmMv3WS4KfHCpY30+wsH5+xvfoOogw==",
+      "path": "fgs.autofac.compositionroot/2020.8.3.2",
+      "hashPath": "fgs.autofac.compositionroot.2020.8.3.2.nupkg.sha512"
+    },
+    "FGS.Autofac.CompositionRoot.Abstractions/2020.8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JFMQTe5V1Ud3JMGrv5XX8VOST50f/DYzR8Qr471XAgj5xp4jMwEL+MvZVu++ZFdzxGAospn4Vbzm9PBJ93KCUg==",
+      "path": "fgs.autofac.compositionroot.abstractions/2020.8.3.2",
+      "hashPath": "fgs.autofac.compositionroot.abstractions.2020.8.3.2.nupkg.sha512"
+    },
+    "FGS.Autofac.DynamicScoping/2020.8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LFhTX2szpwQIEyXicCtZdtZlVSTetkbvFTIz25wihGW/+zbvG3kfZ05woKffJA5oOOtWZ74bx6DKAZLyvKEysg==",
+      "path": "fgs.autofac.dynamicscoping/2020.8.3.2",
+      "hashPath": "fgs.autofac.dynamicscoping.2020.8.3.2.nupkg.sha512"
+    },
+    "FGS.Autofac.DynamicScoping.Abstractions/2020.8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2+Ltid0QnHdhfcMFTcU2hPfeO9VpZ7pusd9IkpdljtO4hgP9AZra9G9Sc8X6DzN1dt8pge7ujlI5677A4Ad/sA==",
+      "path": "fgs.autofac.dynamicscoping.abstractions/2020.8.3.2",
+      "hashPath": "fgs.autofac.dynamicscoping.abstractions.2020.8.3.2.nupkg.sha512"
+    },
+    "FGS.Autofac.Registration.Extensions/2020.8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tL8ldIvpPYsK9yUvWso+8oeemjQiEwqoFPMewAdwhthH5L7y7DydPhV5r8sQz4iD3MtB490d9Ungx5g4u9KrmA==",
+      "path": "fgs.autofac.registration.extensions/2020.8.3.2",
+      "hashPath": "fgs.autofac.registration.extensions.2020.8.3.2.nupkg.sha512"
+    },
+    "FGS.Reflection.Extensions/2020.8.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KxF1iymefNJ6zdbHrCn2ZCpdvXlN+jhLrDx36Qe429WTLFxwktyDysfYnGYML6zhxckEGbBoCuiN1P+B03aOIQ==",
+      "path": "fgs.reflection.extensions/2020.8.3.2",
+      "hashPath": "fgs.reflection.extensions.2020.8.3.2.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
@@ -4947,6 +5145,13 @@
       "sha512": "sha512-XlVJzJ5wPOYW+Y0J6Q/LVTEyfS4ssLXmt60T0SPP+D8abVhBTl+cgw2gDHlyKYIkcJg7btMVh383NDkMVqD/fg==",
       "path": "microsoft.aspnetcore.authentication.core/2.2.0",
       "hashPath": "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authorization/6.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WzMlSLdNdBttOGU/aPBjq6tre/N1fPySHkbv8hsEkE40NIU8vuuIRwUJRe9QCTKlwM9apUbSzhjMBdOhp+15vQ==",
+      "path": "microsoft.aspnetcore.authorization/6.0.10",
+      "hashPath": "microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.10": {
       "type": "package",
@@ -5031,6 +5236,13 @@
       "sha512": "sha512-GLynXPCJFSNELz/umiKY4xje2NG3f84e0zXdpzGJ121vd/doHnRkcO67aVulk0Ek1vsZ24zTnju1zrzsqU+wSg==",
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/6.0.10",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.6.0.10.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/6.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s+tychZiXgodo92edHj1+hyg3MCu/32FriN4UcOsoaSLKlxNfaqyiaPBqqlZH2ArWOz3c8AyuMZR3qy0bOcycQ==",
+      "path": "microsoft.aspnetcore.metadata/6.0.10",
+      "hashPath": "microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.10": {
       "type": "package",
@@ -5347,12 +5559,12 @@
       "path": "microsoft.extensions.logging/6.0.0",
       "hashPath": "microsoft.extensions.logging.6.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+    "Microsoft.Extensions.Logging.Abstractions/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
-      "path": "microsoft.extensions.logging.abstractions/6.0.0",
-      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+      "sha512": "sha512-pwXCZKaA7m5wgmCj49dW+H1RPSY7U62SKLTQYCcavf/k3Nyt/WnBgAjG4jMGnwy9rElfAZ2KvxvM5CJzJWG0hg==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.2",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.ObjectPool/2.2.0": {
       "type": "package",
@@ -6386,7 +6598,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Authorization/6.0.0.0": {
+    "Microsoft.AspNetCore.Authorization.Reference/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6571,7 +6783,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Metadata/6.0.0.0": {
+    "Microsoft.AspNetCore.Metadata.Reference/6.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""

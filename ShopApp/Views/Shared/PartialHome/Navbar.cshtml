@@ -11,44 +11,64 @@
                     <ul>
                         <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
                         <li><a asp-controller="Shop" asp-action="WomenList">Women’s</a></li>
-                        <li><a asp-controller="Shop" asp-action="ManList" >Men’s</a></li>
+                        <li><a asp-controller="Shop" asp-action="ManList">Men’s</a></li>
                         <li><a asp-controller="Shop" asp-action="AllList">Shop</a></li>
-                        <li><a href="/admin/products">Admin Products</a></li>
-                        <li>
-                            <a href="#">Pages</a>
-                            <ul class="dropdown">
-                                <li><a href="./product-details.html">Product Details</a></li>
-                                <li><a href="./shop-cart.html">Shop Cart</a></li>
-                                <li><a href="./checkout.html">Checkout</a></li>
-                                <li><a href="./blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="./blog.html">Blog</a></li>
-                        <li><a asp-controller="Admin" asp-action="AdminHomePage">Admin</a></li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li>
+                                <a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="./product-details.html">Product Details</a></li>
+                                    <li><a href="./shop-cart.html">Shop Cart</a></li>
+                                    <li><a href="./checkout.html">Checkout</a></li>
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                    <li><a href="/admin/products">Admin Products</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a asp-controller="Admin" asp-action="AdminHomePage">Admin</a></li>
+                        }
+
+
                     </ul>
                 </nav>
             </div>
             <div class="col-lg-3">
                 <div class="header__right">
                     <div class="header__right__auth">
-                        <a href="#">Login</a>
-                        <a href="#">Register</a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a asp-controller="Account" asp-action="Manage">
+                                @User.Identity.Name
+                            </a>
+
+
+                            <a asp-controller="Account" asp-action="LogOut">Logout</a>
+                            <ul class="header__right__widget">
+                                <li><span class="icon_search search-switch"></span></li>
+                                <li>
+                                    <a href="#">
+                                        <span class="icon_heart_alt"></span>
+                                        <div class="tip">2</div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="icon_bag_alt"></span>
+                                        <div class="tip">2</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login">Login</a>
+
+                            <a asp-controller="Account" asp-action="Register">Register</a>
+                        }
+
                     </div>
-                    <ul class="header__right__widget">
-                        <li><span class="icon_search search-switch"></span></li>
-                        <li>
-                            <a href="#">
-                                <span class="icon_heart_alt"></span>
-                                <div class="tip">2</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="icon_bag_alt"></span>
-                                <div class="tip">2</div>
-                            </a>
-                        </li>
-                    </ul>
+                
                 </div>
             </div>
         </div>

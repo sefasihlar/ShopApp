@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Autofac/4.9.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Autofac.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "EntityFramework/6.4.4": {
         "type": "package",
         "dependencies": {
@@ -30,6 +43,124 @@
         "build": {
           "buildTransitive/netcoreapp3.0/EntityFramework.props": {},
           "buildTransitive/netcoreapp3.0/EntityFramework.targets": {}
+        }
+      },
+      "FGS.Autofac.AspNetCore.Mvc.Routing/2020.8.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.9.1, 6.0.0)",
+          "FGS.Autofac.Registration.Extensions": "2020.8.3.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.AspNetCore.Mvc.Routing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.AspNetCore.Mvc.Routing.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "FGS.Autofac.CompositionRoot/2020.8.3.2": {
+        "type": "package",
+        "dependencies": {
+          "FGS.Autofac.CompositionRoot.Abstractions": "2020.8.3.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FGS.Autofac.CompositionRoot.Abstractions/2020.8.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.9.1, 6.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FGS.Autofac.DynamicScoping/2020.8.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.9.1, 6.0.0)",
+          "FGS.Autofac.CompositionRoot": "2020.8.3.2",
+          "FGS.Autofac.CompositionRoot.Abstractions": "2020.8.3.2",
+          "FGS.Autofac.DynamicScoping.Abstractions": "2020.8.3.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FGS.Autofac.DynamicScoping.Abstractions/2020.8.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.9.1, 6.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FGS.Autofac.Registration.Extensions/2020.8.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "[4.9.1, 6.0.0)",
+          "FGS.Autofac.DynamicScoping": "2020.8.3.2",
+          "FGS.Reflection.Extensions": "2020.8.3.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Autofac.Registration.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Autofac.Registration.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FGS.Reflection.Extensions/2020.8.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/FGS.Reflection.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/FGS.Reflection.Extensions.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -153,6 +284,24 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/6.0.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "6.0.10",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {
             "related": ".xml"
           }
         }
@@ -362,6 +511,19 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/6.0.10": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {
             "related": ".xml"
           }
         }
@@ -1658,7 +1820,7 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "Microsoft.Extensions.Logging.Abstractions/6.0.2": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
@@ -4188,6 +4350,26 @@
     }
   },
   "libraries": {
+    "Autofac/4.9.1": {
+      "sha512": "L92DMQxpy4Xw3IypXxL8Z4NHt+qIkB1e0NB2OJ9u105Xp5sVsZSJ04YtYyubmM3KG8aC+WpyBhN14XcjPx5gLg==",
+      "type": "package",
+      "path": "autofac/4.9.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofac.4.9.1.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net45/Autofac.dll",
+        "lib/net45/Autofac.pdb",
+        "lib/net45/Autofac.xml",
+        "lib/netstandard1.1/Autofac.dll",
+        "lib/netstandard1.1/Autofac.pdb",
+        "lib/netstandard1.1/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.pdb",
+        "lib/netstandard2.0/Autofac.xml"
+      ]
+    },
     "EntityFramework/6.4.4": {
       "sha512": "yj1+/4tci7Panu3jKDHYizxwVm0Jvm7b7m057b5h4u8NUHGCR8WIWirBTw+8EptRffwftIWPBeIRGNKD1ewEMQ==",
       "type": "package",
@@ -4243,6 +4425,137 @@
         "tools/netcoreapp3.0/any/ef6.dll",
         "tools/netcoreapp3.0/any/ef6.pdb",
         "tools/netcoreapp3.0/any/ef6.runtimeconfig.json"
+      ]
+    },
+    "FGS.Autofac.AspNetCore.Mvc.Routing/2020.8.3.2": {
+      "sha512": "OGOqOeKITHPUdtFPoYFNj+dgQt8gJNV7yqML2zabU1GtJJoA8ZN/h01uVk5nGnL8hXsa5qB1iSkpiBxz2E0UQg==",
+      "type": "package",
+      "path": "fgs.autofac.aspnetcore.mvc.routing/2020.8.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fgs.autofac.aspnetcore.mvc.routing.2020.8.3.2.nupkg.sha512",
+        "fgs.autofac.aspnetcore.mvc.routing.nuspec",
+        "lib/net472/FGS.Autofac.AspNetCore.Mvc.Routing.dll",
+        "lib/net472/FGS.Autofac.AspNetCore.Mvc.Routing.xml",
+        "lib/netcoreapp3.0/FGS.Autofac.AspNetCore.Mvc.Routing.dll",
+        "lib/netcoreapp3.0/FGS.Autofac.AspNetCore.Mvc.Routing.xml",
+        "lib/netstandard2.0/FGS.Autofac.AspNetCore.Mvc.Routing.dll",
+        "lib/netstandard2.0/FGS.Autofac.AspNetCore.Mvc.Routing.xml"
+      ]
+    },
+    "FGS.Autofac.CompositionRoot/2020.8.3.2": {
+      "sha512": "a1ktg0kmxA+lc5dhXXfArI6ZNYN/ajy5hVCfLGGIk1uXp7C5JIpJfel/SmMv3WS4KfHCpY30+wsH5+xvfoOogw==",
+      "type": "package",
+      "path": "fgs.autofac.compositionroot/2020.8.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fgs.autofac.compositionroot.2020.8.3.2.nupkg.sha512",
+        "fgs.autofac.compositionroot.nuspec",
+        "lib/net472/FGS.Autofac.CompositionRoot.dll",
+        "lib/net472/FGS.Autofac.CompositionRoot.xml",
+        "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.dll",
+        "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.xml",
+        "lib/netstandard2.0/FGS.Autofac.CompositionRoot.dll",
+        "lib/netstandard2.0/FGS.Autofac.CompositionRoot.xml",
+        "lib/netstandard2.1/FGS.Autofac.CompositionRoot.dll",
+        "lib/netstandard2.1/FGS.Autofac.CompositionRoot.xml"
+      ]
+    },
+    "FGS.Autofac.CompositionRoot.Abstractions/2020.8.3.2": {
+      "sha512": "JFMQTe5V1Ud3JMGrv5XX8VOST50f/DYzR8Qr471XAgj5xp4jMwEL+MvZVu++ZFdzxGAospn4Vbzm9PBJ93KCUg==",
+      "type": "package",
+      "path": "fgs.autofac.compositionroot.abstractions/2020.8.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fgs.autofac.compositionroot.abstractions.2020.8.3.2.nupkg.sha512",
+        "fgs.autofac.compositionroot.abstractions.nuspec",
+        "lib/net472/FGS.Autofac.CompositionRoot.Abstractions.dll",
+        "lib/net472/FGS.Autofac.CompositionRoot.Abstractions.xml",
+        "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.Abstractions.dll",
+        "lib/netcoreapp3.0/FGS.Autofac.CompositionRoot.Abstractions.xml",
+        "lib/netstandard2.0/FGS.Autofac.CompositionRoot.Abstractions.dll",
+        "lib/netstandard2.0/FGS.Autofac.CompositionRoot.Abstractions.xml",
+        "lib/netstandard2.1/FGS.Autofac.CompositionRoot.Abstractions.dll",
+        "lib/netstandard2.1/FGS.Autofac.CompositionRoot.Abstractions.xml"
+      ]
+    },
+    "FGS.Autofac.DynamicScoping/2020.8.3.2": {
+      "sha512": "LFhTX2szpwQIEyXicCtZdtZlVSTetkbvFTIz25wihGW/+zbvG3kfZ05woKffJA5oOOtWZ74bx6DKAZLyvKEysg==",
+      "type": "package",
+      "path": "fgs.autofac.dynamicscoping/2020.8.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fgs.autofac.dynamicscoping.2020.8.3.2.nupkg.sha512",
+        "fgs.autofac.dynamicscoping.nuspec",
+        "lib/net472/FGS.Autofac.DynamicScoping.dll",
+        "lib/net472/FGS.Autofac.DynamicScoping.xml",
+        "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.dll",
+        "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.xml",
+        "lib/netstandard2.0/FGS.Autofac.DynamicScoping.dll",
+        "lib/netstandard2.0/FGS.Autofac.DynamicScoping.xml",
+        "lib/netstandard2.1/FGS.Autofac.DynamicScoping.dll",
+        "lib/netstandard2.1/FGS.Autofac.DynamicScoping.xml"
+      ]
+    },
+    "FGS.Autofac.DynamicScoping.Abstractions/2020.8.3.2": {
+      "sha512": "2+Ltid0QnHdhfcMFTcU2hPfeO9VpZ7pusd9IkpdljtO4hgP9AZra9G9Sc8X6DzN1dt8pge7ujlI5677A4Ad/sA==",
+      "type": "package",
+      "path": "fgs.autofac.dynamicscoping.abstractions/2020.8.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fgs.autofac.dynamicscoping.abstractions.2020.8.3.2.nupkg.sha512",
+        "fgs.autofac.dynamicscoping.abstractions.nuspec",
+        "lib/net472/FGS.Autofac.DynamicScoping.Abstractions.dll",
+        "lib/net472/FGS.Autofac.DynamicScoping.Abstractions.xml",
+        "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.Abstractions.dll",
+        "lib/netcoreapp3.0/FGS.Autofac.DynamicScoping.Abstractions.xml",
+        "lib/netstandard2.0/FGS.Autofac.DynamicScoping.Abstractions.dll",
+        "lib/netstandard2.0/FGS.Autofac.DynamicScoping.Abstractions.xml",
+        "lib/netstandard2.1/FGS.Autofac.DynamicScoping.Abstractions.dll",
+        "lib/netstandard2.1/FGS.Autofac.DynamicScoping.Abstractions.xml"
+      ]
+    },
+    "FGS.Autofac.Registration.Extensions/2020.8.3.2": {
+      "sha512": "tL8ldIvpPYsK9yUvWso+8oeemjQiEwqoFPMewAdwhthH5L7y7DydPhV5r8sQz4iD3MtB490d9Ungx5g4u9KrmA==",
+      "type": "package",
+      "path": "fgs.autofac.registration.extensions/2020.8.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fgs.autofac.registration.extensions.2020.8.3.2.nupkg.sha512",
+        "fgs.autofac.registration.extensions.nuspec",
+        "lib/net472/FGS.Autofac.Registration.Extensions.dll",
+        "lib/net472/FGS.Autofac.Registration.Extensions.xml",
+        "lib/netcoreapp3.0/FGS.Autofac.Registration.Extensions.dll",
+        "lib/netcoreapp3.0/FGS.Autofac.Registration.Extensions.xml",
+        "lib/netstandard2.0/FGS.Autofac.Registration.Extensions.dll",
+        "lib/netstandard2.0/FGS.Autofac.Registration.Extensions.xml",
+        "lib/netstandard2.1/FGS.Autofac.Registration.Extensions.dll",
+        "lib/netstandard2.1/FGS.Autofac.Registration.Extensions.xml"
+      ]
+    },
+    "FGS.Reflection.Extensions/2020.8.3.2": {
+      "sha512": "KxF1iymefNJ6zdbHrCn2ZCpdvXlN+jhLrDx36Qe429WTLFxwktyDysfYnGYML6zhxckEGbBoCuiN1P+B03aOIQ==",
+      "type": "package",
+      "path": "fgs.reflection.extensions/2020.8.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fgs.reflection.extensions.2020.8.3.2.nupkg.sha512",
+        "fgs.reflection.extensions.nuspec",
+        "lib/net472/FGS.Reflection.Extensions.dll",
+        "lib/net472/FGS.Reflection.Extensions.xml",
+        "lib/netcoreapp3.0/FGS.Reflection.Extensions.dll",
+        "lib/netcoreapp3.0/FGS.Reflection.Extensions.xml",
+        "lib/netstandard2.0/FGS.Reflection.Extensions.dll",
+        "lib/netstandard2.0/FGS.Reflection.Extensions.xml",
+        "lib/netstandard2.1/FGS.Reflection.Extensions.dll",
+        "lib/netstandard2.1/FGS.Reflection.Extensions.xml"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -4357,6 +4670,25 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.xml",
         "microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/6.0.10": {
+      "sha512": "WzMlSLdNdBttOGU/aPBjq6tre/N1fPySHkbv8hsEkE40NIU8vuuIRwUJRe9QCTKlwM9apUbSzhjMBdOhp+15vQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/6.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net461/Microsoft.AspNetCore.Authorization.xml",
+        "lib/net6.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.10": {
@@ -4527,6 +4859,25 @@
         "lib/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml",
         "microsoft.aspnetcore.identity.entityframeworkcore.6.0.10.nupkg.sha512",
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/6.0.10": {
+      "sha512": "s+tychZiXgodo92edHj1+hyg3MCu/32FriN4UcOsoaSLKlxNfaqyiaPBqqlZH2ArWOz3c8AyuMZR3qy0bOcycQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/6.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net461/Microsoft.AspNetCore.Metadata.xml",
+        "lib/net6.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Metadata.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.10": {
@@ -5850,10 +6201,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
-      "sha512": "/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+    "Microsoft.Extensions.Logging.Abstractions/6.0.2": {
+      "sha512": "pwXCZKaA7m5wgmCj49dW+H1RPSY7U62SKLTQYCcavf/k3Nyt/WnBgAjG4jMGnwy9rElfAZ2KvxvM5CJzJWG0hg==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "path": "microsoft.extensions.logging.abstractions/6.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5897,7 +6248,7 @@
         "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -11426,6 +11777,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "EntityFramework >= 6.4.4",
+      "FGS.Autofac.AspNetCore.Mvc.Routing >= 2020.8.3.2",
+      "Microsoft.AspNetCore.Authorization >= 6.0.10",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.10",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 6.0.10",
@@ -11492,6 +11845,14 @@
           "EntityFramework": {
             "target": "Package",
             "version": "[6.4.4, )"
+          },
+          "FGS.Autofac.AspNetCore.Mvc.Routing": {
+            "target": "Package",
+            "version": "[2020.8.3.2, )"
+          },
+          "Microsoft.AspNetCore.Authorization": {
+            "target": "Package",
+            "version": "[6.0.10, )"
           },
           "Microsoft.AspNetCore.Identity": {
             "target": "Package",

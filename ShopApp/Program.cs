@@ -1,3 +1,6 @@
+using Autofac.Core;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -12,10 +15,59 @@ using System.Security.Principal;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//start Authorization
+
+builder.Services.AddAuthentication(
+   )
+    .AddCookie(option=>
+    {
+        option.LoginPath = "Account/Login";
+     
+        option.ExpireTimeSpan = TimeSpan.FromMinutes(5);
+        option.Cookie = new CookieBuilder
+        {
+            HttpOnly = true,
+            Name = "Sefa.Buraya.Saldirmasin",
+            SameSite = SameSiteMode.Strict
+        };
+
+    });
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+ 
+    options.Lockout.AllowedForNewUsers = true;
+    options.User.RequireUniqueEmail = true;
+    options.SignIn.RequireConfirmedEmail = true;
+
+});
+//Finish Authorization 
 builder.Services.AddDbContext<ShopContext>();
-builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<ShopContext>();
+builder.Services.AddIdentity<AppUser, AppRole>()
+    .AddEntityFrameworkStores<ShopContext>()
+    .AddDefaultTokenProviders();
+
 // Add services to the container.
+
+builder.Services.AddDataProtection()
+    .DisableAutomaticKeyGeneration();
+
+builder.Services.AddAuthorization();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Account/Login";
+    options.SlidingExpiration = true;
+    options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
+    
+    options.Cookie = new CookieBuilder()
+    {
+        HttpOnly = true,
+        Name = "ShopApp.Security.Cookie"
+    };
+});
+
 
 //asp.net core6 da routing işlemleri hatasız yapmak için bu işlem gerekli
 builder.Services.AddMvc();
@@ -45,6 +97,8 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
+
 app.UseAuthorization();
 
 //categorilerileri göre filtreleme işlemi yapılması için bu işlemler yeniden tanimlanmalı
@@ -65,11 +119,11 @@ app.UseMvc(Route =>
     Route.MapRoute(
        name: "AllList",
        template: "AllList/{category?}",
-       defaults:new {controller = "Shop", action = "AllList"}
+       defaults: new { controller = "Shop", action = "AllList" }
        );
 
     Route.MapRoute(
-        name:"default",
+        name: "default",
         template: "{controller=Home}/{action=Index}/{id?}"
         );
 });
