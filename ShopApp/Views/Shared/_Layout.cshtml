@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using ShopApp.WebUI.Models
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,6 +30,12 @@
         <div class="loader"></div>
     </div>
     @await Html.PartialAsync("PartialHome/Navbar")
+    @if (TempData["message"]!=null)
+    {
+
+        <partial name="_resultMassage" model="@(TempData.Get<ResultMessage>("Message"))" />
+    }
+ 
     
             @RenderBody()
        

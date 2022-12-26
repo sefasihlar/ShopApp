@@ -3,10 +3,12 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using ShopApp.DataAccess.Concrete.EfCore;
 using ShopApp.Entites;
+using ShopApp.WebUI.MailServices;
 using System.Configuration;
 using System.Data.Entity.Core.EntityClient;
 using System.Security.Principal;
@@ -36,6 +38,7 @@ builder.Services.AddAuthentication(
 builder.Services.Configure<IdentityOptions>(options =>
 {
  
+
     options.Lockout.AllowedForNewUsers = true;
     options.User.RequireUniqueEmail = true;
     options.SignIn.RequireConfirmedEmail = true;
@@ -47,8 +50,9 @@ builder.Services.AddIdentity<AppUser, AppRole>()
     .AddEntityFrameworkStores<ShopContext>()
     .AddDefaultTokenProviders();
 
-// Add services to the container.
 
+// Add services to the container.
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddDataProtection()
     .DisableAutomaticKeyGeneration();
 

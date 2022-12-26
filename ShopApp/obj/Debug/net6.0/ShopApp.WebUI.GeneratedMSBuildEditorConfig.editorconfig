@@ -19,12 +19,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Admin/AdminHomePage.cshtml]
@@ -129,6 +137,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/_resultMassage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9yZXN1bHRNYXNzYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ayyıldız/Desktop/Development/CoreE-Trade/ShopApp/ShopApp/Views/Shared/_ValidationScriptsPartial.cshtml]
