@@ -9,13 +9,14 @@ using System.Threading.Tasks;
 
 namespace ShopApp.DataAccess.Concrete.EfCore
 {
+    //virtual koyarak eğer ilişki varsa override yapmamıza sağlar
     public class EfCoreGenericRepository<T, TContext> : IRepository<T>
         where T : class
         where TContext : DbContext, new()
 
        
     {
-        public void Create(T entity)
+        public virtual void Create(T entity)
         {
             using (var _context = new TContext())
             {
@@ -24,7 +25,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
             }
         }
 
-        public void Delete(T entity)
+        public virtual  void Delete(T entity)
         {
             using (var _context = new TContext())
             {
@@ -33,7 +34,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
             }
         }
 
-        public IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null)
+        public virtual IEnumerable<T> GetAll(Expression<Func<T, bool>> filter = null)
         {
             using (var _context = new TContext())
             {
@@ -44,7 +45,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
             }
         }
 
-        public T GetById(int id)
+        public  virtual T GetById(int id)
         {
             using (var _context = new TContext())
             {
@@ -53,7 +54,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
             }
         }
 
-        public T GetOne(Expression<Func<T, bool>> filter)
+        public virtual T GetOne(Expression<Func<T, bool>> filter)
         {
             using (var _context = new TContext())
             {
@@ -61,7 +62,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
             }
         }
 
-        public void Update(T entity)
+        public virtual void Update(T entity)
         {
             using (var _context = new TContext())
             {

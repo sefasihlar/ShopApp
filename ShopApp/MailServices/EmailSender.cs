@@ -14,6 +14,8 @@ namespace ShopApp.WebUI.MailServices
     public class EmailSender : IEmailSender
     {
         
+
+
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             return Execute(SendGridKey, subject, htmlMessage, email);
@@ -32,7 +34,7 @@ namespace ShopApp.WebUI.MailServices
             };
 
             msg.AddTo(new EmailAddress(email));
-            return client.SendEmailAsync(msg);
+            return  client.SendEmailAsync(msg);
         }
     }
 }

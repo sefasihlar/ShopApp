@@ -12,8 +12,7 @@ using ShopApp.WebUI.MailServices;
 using System.Configuration;
 using System.Data.Entity.Core.EntityClient;
 using System.Security.Principal;
-
-
+using SendGrid;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -34,7 +33,7 @@ builder.Services.AddAuthentication(
         };
 
     });
-
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.Configure<IdentityOptions>(options =>
 {
  
@@ -52,7 +51,7 @@ builder.Services.AddIdentity<AppUser, AppRole>()
 
 
 // Add services to the container.
-builder.Services.AddTransient<IEmailSender, EmailSender>();
+
 builder.Services.AddDataProtection()
     .DisableAutomaticKeyGeneration();
 
@@ -130,6 +129,13 @@ app.UseMvc(Route =>
         name: "default",
         template: "{controller=Home}/{action=Index}/{id?}"
         );
+    Route.MapRoute(
+    name: "cart",
+    template: "cart",
+    defaults: new { controller = "Cart", action = "Index" }
+    );
+
+
 });
 //işlemler tanimlandi ve bitti
 

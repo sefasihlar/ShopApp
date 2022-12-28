@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using NuGet.Common;
+using ShopApp.Business.Abstract;
+using ShopApp.Business.Concrete;
+using ShopApp.DataAccess.Concrete.EfCore;
 using ShopApp.Entites;
 using ShopApp.WebUI.Extensions;
 using ShopApp.WebUI.Models;
@@ -16,12 +19,14 @@ namespace ShopApp.WebUI.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private  IEmailSender _emailSender;
-
+        CartManager _cartManager = new CartManager(new EfCoreCartDal());
+         
         public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IEmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
+     
         }
 
         [HttpGet]
@@ -155,6 +160,10 @@ namespace ShopApp.WebUI.Controllers
                 var result = await _userManager.ConfirmEmailAsync(user, token);
                 if (result.Succeeded)
                 {
+                    //create cart object 
+
+                    _cartManager.InitializeCart(Convert.ToString(user.Id));
+
                     TempData.Put("Message", new ResultMessage()
                     {
                         Title = "Hesap Onayı",
