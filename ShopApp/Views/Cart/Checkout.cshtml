@@ -1,0 +1,116 @@
+﻿@model ShopApp.WebUI.Models.OrderModel
+
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2 class="text-center">Checkout</h2>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h4 class="mb-3">Order Details</h4>
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="@Model.FirstName"> </label>
+                        <input asp-for="@Model.FirstName" class="form-control" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="@Model.LastName"></label>
+                        <input asp-for="@Model.LastName" class="form-control" />
+                    </div>
+
+                    <div class="col-md-12 mb-3">
+                        <label asp-for="@Model.Address"></label>
+                        <textarea asp-for="@Model.Address" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="@Model.City" ></label>
+                        <input asp-for="@Model.City" name="City" class="form-control" />
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="@Model.Phone"></label>
+                        <input asp-for="@Model.Phone" name="Phone" class="form-control" />
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label asp-for="@Model.Mail"></label>
+                        <input asp-for="@Model.Mail" name="Mail" class="form-control" />
+                    </div>
+                </div>
+                <hr class="mb-4" />
+                <div class="custom-control custom-checkbox">
+                    <input  box" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+                </div>
+                <hr class="mb-4" />
+                <div class="custom-control custom-checkbox" style="float:left;margin-right:15px" >
+                    <input box" class="custom-control-input" name="paymetMethod" id="customCheck1">
+                    <label class="custom-control-label" for="creditcart">Credit Cart</label>
+                </div>
+                <div class="custom-control custom-checkbox" style="float:left;margin-bottom:10px">
+                    <input  box" class="custom-control-input" name="paymetMethod" id="customCheck1">
+                    <label class="custom-control-label" for="rft">Eft</label>
+                </div>
+                <br />
+                <br />
+                <h4 class="mb-3">Payment</h4>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="@Model.CardName"></label>
+                        <input asp-for="@Model.CardName"  class="form-control" />
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="@Model.CardNumber"></label>
+                        <input asp-for="@Model.CardNumber" class="form-control" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-md-4 mb-3">
+                        <label asp-for="@Model.ExpirationMonth"></label>
+                        <input asp-for="@Model.ExpirationMonth"  class="form-control" />
+                    </div>
+                    <div class=" col-md-4 mb-3">
+                        <label asp-for="@Model.ExpirationYear"></label>
+                        <input asp-for="@Model.ExpirationYear" class="form-control" />
+                    </div>
+                    <div class=" col-md-4 mb-3">
+                        <label asp-for="@Model.Cvv">CVV</label>
+                        <input asp-for="@Model.Cvv"  name="cvv" class="form-control" />
+                    </div>
+                </div>
+                <hr class="mb-4" />
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Complate Order</button>
+
+            </form>
+
+        </div>
+        <div class="col-md-4 mb-4">
+          
+            <h4 class="mb-3">
+                <span class="text-muted">Your Cart</span>
+            </h4>
+            <ul class="list-group mb-3">
+                @foreach (var item in Model.CartModel.CartItems)
+                {
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <h6 class="my-o">@item.Name</h6>
+                        </div>
+                        <span class="text-muted">@item.Price <span>x @item.Quantity</span></span>
+                    </li>
+                }
+              
+             
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Total(tl)</span>
+                    <strong>@Model.CartModel.TotalPrice()</strong>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>

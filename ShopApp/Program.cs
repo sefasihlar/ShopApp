@@ -16,14 +16,19 @@ using SendGrid;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//start Authorization
 
+//start Authorization
+builder.Services.ConfigureApplicationCookie(o =>
+{
+    o.ExpireTimeSpan = TimeSpan.FromMinutes(1);
+    o.SlidingExpiration = true;
+});
 builder.Services.AddAuthentication(
    )
-    .AddCookie(option=>
+    .AddCookie(option =>
     {
         option.LoginPath = "Account/Login";
-     
+
         option.ExpireTimeSpan = TimeSpan.FromMinutes(5);
         option.Cookie = new CookieBuilder
         {
@@ -33,16 +38,22 @@ builder.Services.AddAuthentication(
         };
 
     });
-builder.Services.AddSingleton<IEmailSender, EmailSender>();
+
+
 builder.Services.Configure<IdentityOptions>(options =>
 {
- 
+
 
     options.Lockout.AllowedForNewUsers = true;
     options.User.RequireUniqueEmail = true;
     options.SignIn.RequireConfirmedEmail = true;
 
+
+
 });
+
+builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration);
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 //Finish Authorization 
 builder.Services.AddDbContext<ShopContext>();
 builder.Services.AddIdentity<AppUser, AppRole>()
@@ -63,7 +74,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LoginPath = "/Account/Login";
     options.SlidingExpiration = true;
     options.ExpireTimeSpan = TimeSpan.FromMinutes(60);
-    
+
     options.Cookie = new CookieBuilder()
     {
         HttpOnly = true,
@@ -133,6 +144,11 @@ app.UseMvc(Route =>
     name: "cart",
     template: "cart",
     defaults: new { controller = "Cart", action = "Index" }
+    );
+    Route.MapRoute(
+    name: "checkout",
+    template: "cart",
+    defaults: new { controller = "Cart", action = "Checkout" }
     );
 
 

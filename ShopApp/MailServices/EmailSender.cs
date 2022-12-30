@@ -1,41 +1,37 @@
-﻿
-
-// using SendGrid's C# Library
-// https://github.com/sendgrid/sendgrid-csharp
-using Microsoft.AspNetCore.Identity.UI.Services;
-using Microsoft.AspNetCore.Mvc.Filters;
-using SendGrid;
+﻿using Microsoft.AspNetCore.Identity.UI.Services;
+using Microsoft.Extensions.Options;
 using SendGrid.Helpers.Mail;
-using System;
-using System.Threading.Tasks;
+using SendGrid;
+using ShopApp.WebUI.MailServices;
+using System.Net;
 
-namespace ShopApp.WebUI.MailServices
+public class EmailSender : IEmailSender
 {
-    public class EmailSender : IEmailSender
+ 
+    public AuthMessageSenderOptions Options { get; } // using Microsoft.AspNetCore.Identity.UI.Services;
+    public EmailSender(IOptions<AuthMessageSenderOptions> optionsAccessor)
     {
-        
+        Options = optionsAccessor.Value;
+    }
 
+    public Task SendEmailAsync(string email, string subject, string message)
+    {
+        return Execute(SendGridKey, subject, message, email);
+    }
 
-        public Task SendEmailAsync(string email, string subject, string htmlMessage)
+    public Task Execute(string apiKey, string subject, string message, string email)
+    {
+        var client = new SendGridClient(apiKey);
+        var msg = new SendGridMessage()
         {
-            return Execute(SendGridKey, subject, htmlMessage, email);
-        }
+            From = new EmailAddress("test@example.com", "Example User"),
+            Subject = subject,
+            PlainTextContent = message,
+            HtmlContent = message
+        };
+        msg.AddTo(new EmailAddress(email));
+        msg.SetClickTracking(false, false);
 
-        private Task Execute(string sendGridKey, string subject, string htmlMessage, string email)
-        {
-            var client = new SendGridClient(sendGridKey);
-
-            var msg = new SendGridMessage()
-            {
-                From = new EmailAddress("info@sefasihlar.com", "Shop App"),
-                Subject = subject,
-                PlainTextContent = htmlMessage,
-                HtmlContent = htmlMessage
-            };
-
-            msg.AddTo(new EmailAddress(email));
-            return  client.SendEmailAsync(msg);
-        }
+        return client.SendEmailAsync(msg);
     }
 }
-
