@@ -7,7 +7,7 @@ using System.Net;
 
 public class EmailSender : IEmailSender
 {
- 
+   
     public AuthMessageSenderOptions Options { get; } // using Microsoft.AspNetCore.Identity.UI.Services;
     public EmailSender(IOptions<AuthMessageSenderOptions> optionsAccessor)
     {
@@ -16,7 +16,12 @@ public class EmailSender : IEmailSender
 
     public Task SendEmailAsync(string email, string subject, string message)
     {
-        return Execute(SendGridKey, subject, message, email);
+        return Execute(subject, message, email);
+    }
+
+    private Task Execute(string subject, string message, string email)
+    {
+        throw new NotImplementedException();
     }
 
     public Task Execute(string apiKey, string subject, string message, string email)

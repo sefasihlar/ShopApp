@@ -19,6 +19,7 @@ namespace ShopApp.WebUI.Controllers
     public class CartController : Controller
     {
         private UserManager<AppUser> _userManager;
+        OrderManager _orderManager = new OrderManager(new EfCoreOrderDal());
         CartManager _cartManager = new CartManager(new EfCoreCartDal());
 
         public CartController(UserManager<AppUser> userManager)
@@ -62,6 +63,8 @@ namespace ShopApp.WebUI.Controllers
             return RedirectToAction("Index","Cart");
         }
 
+
+        [HttpGet]
         public IActionResult Checkout()
         {
             var cart = _cartManager.GetCartByUserId(_userManager.GetUserId(User));
@@ -88,32 +91,112 @@ namespace ShopApp.WebUI.Controllers
         }
 
         [HttpPost]
-        public IActionResult Checkout()
+        public IActionResult Checkout(OrderModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var userId = _userManager.GetUserId(User);
+                var cart = _cartManager.GetCartByUserId(userId);
+                model.CartModel = new CartModel()
+                {
+                    CartId = cart.Id,
+                    CartItems = cart.CartItems.Select(x=> new CartItemModel()
+                    {
+                        CartItemId = x.Id,
+                        ProductId = x.ProductId,
+                        Name = x.Product.Name,
+                        Price = Convert.ToDecimal(x.Product.Price),
+                        ImageUrl = x.Product.ImageUrl,
+                        Quantity = x.Quantity
+
+                    }).ToList()
+                };
+
+                var payment = PaymentRrocess(model);
+
+                if (payment.Status == "success")
+                {
+                    SaveOrder(model, payment, userId);
+                    ClearCart(cart.Id.ToString());
+                    return View("Success");
+                }
+
+
+            }
+
+            return View(model);
+        }
+
+        private void SaveOrder(OrderModel model, Payment payment, string userId)
+        {
+            var order = new Order();
+
+            order.OrderNumber = new Random().Next(111111,999999).ToString();
+            order.OrderState = EnumOrderState.Completed;
+            order.EnumPaymentTypes = EnumPaymentTypes.CreditCart;
+            order.PaymentId = payment.PaymentId;
+            order.ConversationId = payment.ConversationId;
+            order.OrderTime = new DateTime();
+            order.FistName = model.FirstName;
+            order.LastName = model.LastName;
+            order.Email = model.Mail;
+            order.Phone = model.Phone;
+            order.Address = model.Address;
+            order.UserId = userId;
+
+            foreach (var item in model.CartModel.CartItems)
+            {
+                var orderItem = new OrderItem()
+                {
+                    Price = item.Price,
+                    Quantity = item.Quantity,
+                    ProductId = item.ProductId,
+
+                };
+                order.OrderItems.Add(orderItem);
+            }
+
+            _orderManager.Create(order);
+
+        }
+
+        private void ClearCart(string cartId)
+        {
+            _cartManager.ClearCart(cartId);
+        }
+
+        private Payment PaymentRrocess(OrderModel model)
         {
             Options options = new Options();
-            options.ApiKey = "your api key";
-            options.SecretKey = "your secret key";
+        
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
             CreatePaymentRequest request = new CreatePaymentRequest();
-            request.Locale = Locale.TR.ToString();
-            request.ConversationId = "123456789";
-            request.Price = "1";
-            request.PaidPrice = "1.2";
+       
+            request.ConversationId = Guid.NewGuid().ToString();
+            request.Price = model.CartModel.TotalPrice().ToString().Split(",")[0];
+            request.PaidPrice = model.CartModel.TotalPrice().ToString().Split(",")[0];
             request.Currency = Currency.TRY.ToString();
             request.Installment = 1;
-            request.BasketId = "B67832";
+            request.BasketId = model.CartModel.CartId.ToString();
             request.PaymentChannel = PaymentChannel.WEB.ToString();
             request.PaymentGroup = PaymentGroup.PRODUCT.ToString();
 
             PaymentCard paymentCard = new PaymentCard();
-            paymentCard.CardHolderName = "John Doe";
-            paymentCard.CardNumber = "5528790000000008";
-            paymentCard.ExpireMonth = "12";
-            paymentCard.ExpireYear = "2030";
-            paymentCard.Cvc = "123";
+            paymentCard.CardHolderName = model.CardName;
+            paymentCard.CardNumber = model.CardNumber;
+            paymentCard.ExpireMonth = model.ExpirationMonth;
+            paymentCard.ExpireYear = model.ExpirationYear;
+            paymentCard.Cvc = model.Cvv;
             paymentCard.RegisterCard = 0;
             request.PaymentCard = paymentCard;
+
+            //PaymentCard paymentCard = new PaymentCard();
+            //paymentCard.CardHolderName = model.CardName;
+            //paymentCard.CardNumber = "5528790000000008";
+            //paymentCard.ExpireMonth = "12";
+            //paymentCard.ExpireYear = "2030";
+            //paymentCard.Cvc = "123";
 
             Buyer buyer = new Buyer();
             buyer.Id = "BY789";
@@ -148,35 +231,73 @@ namespace ShopApp.WebUI.Controllers
             request.BillingAddress = billingAddress;
 
             List<BasketItem> basketItems = new List<BasketItem>();
-            BasketItem firstBasketItem = new BasketItem();
-            firstBasketItem.Id = "BI101";
-            firstBasketItem.Name = "Binocular";
-            firstBasketItem.Category1 = "Collectibles";
-            firstBasketItem.Category2 = "Accessories";
-            firstBasketItem.ItemType = BasketItemType.PHYSICAL.ToString();
-            firstBasketItem.Price = "0.3";
-            basketItems.Add(firstBasketItem);
+            BasketItem basketItem;
 
-            BasketItem secondBasketItem = new BasketItem();
-            secondBasketItem.Id = "BI102";
-            secondBasketItem.Name = "Game code";
-            secondBasketItem.Category1 = "Game";
-            secondBasketItem.Category2 = "Online Game Items";
-            secondBasketItem.ItemType = BasketItemType.VIRTUAL.ToString();
-            secondBasketItem.Price = "0.5";
-            basketItems.Add(secondBasketItem);
+            foreach (var item in model.CartModel.CartItems)
+            {
+                basketItem = new BasketItem();
+                basketItem.Id = item.ProductId.ToString();
+                basketItem.Name = item.Name;
+                basketItem.Category1 = "Phone";
+                basketItem.ItemType = BasketItemType.PHYSICAL.ToString();
+                basketItem.Price = item.Price.ToString().Split(",")[0];
+                basketItems.Add(basketItem);
+            }
 
-            BasketItem thirdBasketItem = new BasketItem();
-            thirdBasketItem.Id = "BI103";
-            thirdBasketItem.Name = "Usb";
-            thirdBasketItem.Category1 = "Electronics";
-            thirdBasketItem.Category2 = "Usb / Cable";
-            thirdBasketItem.ItemType = BasketItemType.PHYSICAL.ToString();
-            thirdBasketItem.Price = "0.2";
-            basketItems.Add(thirdBasketItem);
+         
             request.BasketItems = basketItems;
 
-            Payment payment = Payment.Create(request, options);
+            return Payment.Create(request, options);
+
+         
+        }
+
+
+        public IActionResult GetOrders()
+        {
+           var orders =  _orderManager.GetOrders(_userManager.GetUserId(User));
+            var orderListModel = new List<OrderListModel>();
+            OrderListModel orderModel;
+            foreach (var item in orders)
+            {
+                orderModel = new OrderListModel();
+                orderModel.OrderId = item.Id;
+                orderModel.OrderNumber = item.OrderNumber;
+                orderModel.OrderTime = item.OrderTime;
+                orderModel.Phone = item.Phone;
+                orderModel.FistName = item.FistName;
+                orderModel.LastName = item.LastName;
+                orderModel.Email = item.Email;
+                orderModel.Address = item.Address;
+
+                orderModel.OrderItems = item.OrderItems.Select(x => new OrderItemModel()
+                {
+                    OrderItemId = x.OrderId,
+                    Name = x.Product.Name,
+                    Price = x.Price,
+                    Quantity = x.Quantity,
+                    ImgUrl = x.Product.ImageUrl,
+
+
+                }).ToList();
+
+
+                orderListModel.Add(orderModel);
+               
+            }
+            return View(orderListModel);
+        }
+
+
+        public IActionResult OrderDetails(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Order values = _orderManager.GetById((int)id);
+
+            return View(values);
         }
     }
 }

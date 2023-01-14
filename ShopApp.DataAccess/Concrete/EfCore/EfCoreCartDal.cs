@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.CodeAnalysis;
 
 namespace ShopApp.DataAccess.Concrete.EfCore
 {
@@ -40,5 +41,13 @@ namespace ShopApp.DataAccess.Concrete.EfCore
             }
         }
 
+        public void ClearCart(string cartId)
+        {
+            using (var context = new ShopContext())
+            {
+                var cmd = @"delete from CartItem where CartId=@p0";
+                context.Database.ExecuteSqlRaw(cmd, cartId, cartId);
+            }
+        }
     }
 }

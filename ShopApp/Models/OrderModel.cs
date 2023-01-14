@@ -17,6 +17,6 @@ namespace ShopApp.WebUI.Models
         public string ExpirationYear { get; set; }
         public string Cvv { get; set; }
     
-        public CartModel CartModel { get; set; }
+        public CartModel? CartModel { get; set; }
     }
 }

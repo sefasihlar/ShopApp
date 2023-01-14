@@ -1,0 +1,61 @@
+﻿@using ShopApp.WebUI.Models
+@model List<OrderListModel>
+@{
+    ViewData["Title"] = "GetOrders";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h3 class="text-center">Orders</h3>
+<br />
+<hr />
+<div class="container">
+    <br />
+    @foreach (var item in Model)
+    {
+        <table class="table align-middle mb-0 bg-white">
+            <thead class="bg-light">
+                <tr>
+                    <th>#ID</th>
+                    <th>IMAGE</th>
+                    <th>NAME</th>
+                    <th>PRICE</th>
+                    <th>Quantity</th>
+                    <th></th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var order in item.OrderItems)
+                {
+                    <tr>
+                        <td>@order.OrderItemId</td>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="/Theme/img/product/@order.ImgUrl"
+                             alt=""
+                             style="width: 45px; height: 45px"
+                             class="rounded-circle" />
+                            </div>
+                        </td>
+                        <td>
+                            <p class="fw-normal mb-1">@order.Name</p>
+                        </td>
+                        <td>
+                            <p class="fw-normal mb-1">@order.Price</p>
+                        </td>
+                        <td>
+                            <p class="fw-normal mb-1">@order.Quantity</p>
+                        </td>
+                    </tr>
+                }
+            
+            </tbody>
+            <tfoot>
+                <a href="/Cart/OrderDetails/@item.OrderId" class="btn btn-link badge-primary btn-pill btn-sm fw-bold">Details</a>
+            </tfoot>
+            
+        </table>
+       
+    }
+</div>

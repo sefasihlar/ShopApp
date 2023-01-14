@@ -1,0 +1,27 @@
+﻿@using ShopApp.Entites
+@model Order
+
+<br />
+<h3 class="text-center">Orders Details</h3>
+<br />
+<hr />
+<div class="container">
+    <br />
+    <p>Order Number:#@Model.Id</p>
+    <table class="table align-middle mb-0 bg-white table-bordered">
+        <tbody>
+            <tr> 
+                <td ><strong>Customer Name:    </strong>  @Model.FistName @Model.LastName </td>
+              
+                <td ><strong>Adress:</strong>  @Model.Address</td>
+                <td ><strong>Phone:</strong> @Model.Phone</td>
+            </tr>
+            <tr>
+                <td><strong>Payment Status:    </strong>  @Model.EnumPaymentTypes</td>
+                <td><strong>Order Status:</strong>  @Model.OrderState</td>
+                <td><strong>Date Time:</strong> @Model.OrderTime</td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+</div>

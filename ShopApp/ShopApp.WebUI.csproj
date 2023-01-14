@@ -7,12 +7,39 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AngleSharp.Css" Version="0.17.0-alpha-80" />
-    <PackageReference Include="bootstrap" Version="5.3.0-alpha1" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop - Copy\shop-1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop - Copy\shop-2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop - Copy\shop-3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop - Copy\shop-4.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop - Copy\shop-5.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop - Copy\shop-6.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop - Copy\shop-7.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop - Copy\shop-8.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop - Copy\shop-9.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\2190943.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\22549ee2-a82b-4b90-8451-bb927b201cb6.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\almostreturned.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\Brogle_quantum_people_thinking_quantum_things_346c69c1-c001-42f8-b7bc-12b08ccf6b1d.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\EC248E62-0705-4A57-8FB2-AE5442D1E0B9.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\grid_0_1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\naabrimees_low_detail_easy_to_understand_picture_of_the_primord_61ca438d-9330-4386-b818-2237bee50f81.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\Nirvana.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\Orlando_Grech_two_dragons_fight_each_other_jordan_kerwick_paint_64608c22-67a4-4690-a76b-572720bc73c4.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\Pigcanfly72_Anthropomorphic_blue_owl_big_green_eyes_lots_of_det_9a7eca7e-1b2c-4e8b-8509-6b011ff8190e.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\product-1.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\product-2.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\product-3.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\product-4.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\product-5.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\product-6.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\product-7.jpg" />
+    <_ContentIncludedByDefault Remove="wwwroot\Theme\img\shop\product-8.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="FGS.Autofac.AspNetCore.Mvc.Routing" Version="2020.8.3.2" />
     <PackageReference Include="IyzipayCore" Version="1.0.0" />
-    <PackageReference Include="Microsoft.AspNet.Web.Optimization" Version="1.1.3" />
     <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="6.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.10" />
@@ -37,6 +64,21 @@
     <ProjectReference Include="..\ShopApp.Business\ShopApp.Business.csproj" />
     <ProjectReference Include="..\ShopApp.DataAccess\ShopApp.DataAccess.csproj" />
     <ProjectReference Include="..\ShopApp.Entites\ShopApp.Entites.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\Theme\img\shop\py_convert_lady_Tahakami_Hasselblad_large_format_Photograph_of_a_Mechanical_wol_68d826cc-5779-4325-8fc1-fe194b7fa881.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\Theme\img\shop\shop-2.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\Theme\img\shop\shop-7.jpg">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

@@ -299,25 +299,20 @@ namespace ShopApp.DataAccess.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConversationId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("EnumPaymentTypes")
+                        .HasColumnType("int");
+
                     b.Property<string>("FistName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("MyProperty")
-                        .HasColumnType("int");
-
-                    b.Property<string>("OrderNote")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -332,11 +327,9 @@ namespace ShopApp.DataAccess.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("PaymentId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PaymentToken")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
@@ -497,7 +490,7 @@ namespace ShopApp.DataAccess.Migrations
             modelBuilder.Entity("ShopApp.Entites.OrderItem", b =>
                 {
                     b.HasOne("ShopApp.Entites.Order", "Order")
-                        .WithMany("OrderItem")
+                        .WithMany("OrderItems")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -544,7 +537,7 @@ namespace ShopApp.DataAccess.Migrations
 
             modelBuilder.Entity("ShopApp.Entites.Order", b =>
                 {
-                    b.Navigation("OrderItem");
+                    b.Navigation("OrderItems");
                 });
 
             modelBuilder.Entity("ShopApp.Entites.Product", b =>

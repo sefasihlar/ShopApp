@@ -2,48 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "AngleSharp/0.17.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Text.Encoding.CodePages": "5.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/AngleSharp.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/AngleSharp.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "AngleSharp.Css/0.17.0-alpha-80": {
-        "type": "package",
-        "dependencies": {
-          "AngleSharp": "0.17.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/AngleSharp.Css.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/AngleSharp.Css.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Antlr/3.4.1.9004": {
-        "type": "package",
-        "compile": {
-          "lib/Antlr3.Runtime.dll": {}
-        },
-        "runtime": {
-          "lib/Antlr3.Runtime.dll": {}
-        }
-      },
       "Autofac/4.9.1": {
         "type": "package",
         "compile": {
@@ -54,231 +12,6 @@
         "runtime": {
           "lib/netstandard2.0/Autofac.dll": {
             "related": ".pdb;.xml"
-          }
-        }
-      },
-      "bootstrap/5.3.0-alpha1": {
-        "type": "package",
-        "contentFiles": {
-          "contentFiles/any/any/wwwroot/css/bootstrap-grid.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap.min.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap.min.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.esm.js": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.esm.js.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.js": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.js.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.min.js": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map": {
-            "buildAction": "Content",
-            "codeLanguage": "any",
-            "copyToOutput": false
           }
         }
       },
@@ -493,19 +226,6 @@
       },
       "MessagePackAnalyzer/2.1.152": {
         "type": "package"
-      },
-      "Microsoft.AspNet.Web.Optimization/1.1.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Web.Infrastructure": "1.0.0",
-          "WebGrease": "1.5.2"
-        },
-        "compile": {
-          "lib/net40/System.Web.Optimization.dll": {}
-        },
-        "runtime": {
-          "lib/net40/System.Web.Optimization.dll": {}
-        }
       },
       "Microsoft.AspNetCore.Authentication/2.2.0": {
         "type": "package",
@@ -2564,15 +2284,6 @@
           "lib/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.Web.Infrastructure/1.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
         }
       },
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -4673,19 +4384,6 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "WebGrease/1.5.2": {
-        "type": "package",
-        "dependencies": {
-          "Antlr": "3.4.1.9004",
-          "Newtonsoft.Json": "5.0.4"
-        },
-        "compile": {
-          "lib/WebGrease.dll": {}
-        },
-        "runtime": {
-          "lib/WebGrease.dll": {}
-        }
-      },
       "ShopApp.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -4741,55 +4439,6 @@
     }
   },
   "libraries": {
-    "AngleSharp/0.17.0": {
-      "sha512": "74haoXINcj4SdMsmiNzk+9VUwIX1U9P61O6AZd5Uao8SGNnJJB8Y/r8VJRc8orn4c7Vk/oURAKSNF9XcSDxbfA==",
-      "type": "package",
-      "path": "anglesharp/0.17.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "anglesharp.0.17.0.nupkg.sha512",
-        "anglesharp.nuspec",
-        "lib/net461/AngleSharp.dll",
-        "lib/net461/AngleSharp.xml",
-        "lib/net472/AngleSharp.dll",
-        "lib/net472/AngleSharp.xml",
-        "lib/netstandard2.0/AngleSharp.dll",
-        "lib/netstandard2.0/AngleSharp.xml",
-        "logo.png"
-      ]
-    },
-    "AngleSharp.Css/0.17.0-alpha-80": {
-      "sha512": "ktxnVPtyVw+iogl5Id4t+6CO+8nsHncnRC0vzTA8RyuQjOzNxQWeTgJxUv86ktmTwYoMdKyRqY6CvEjB4zRTkQ==",
-      "type": "package",
-      "path": "anglesharp.css/0.17.0-alpha-80",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "anglesharp.css.0.17.0-alpha-80.nupkg.sha512",
-        "anglesharp.css.nuspec",
-        "lib/net461/AngleSharp.Css.dll",
-        "lib/net461/AngleSharp.Css.xml",
-        "lib/net472/AngleSharp.Css.dll",
-        "lib/net472/AngleSharp.Css.xml",
-        "lib/netstandard2.0/AngleSharp.Css.dll",
-        "lib/netstandard2.0/AngleSharp.Css.xml",
-        "logo.png"
-      ]
-    },
-    "Antlr/3.4.1.9004": {
-      "sha512": "c1S+HBE+KYA5EBxtn25LEK02hHPH/tDQ6RviUTTCJpZIPoputtn8ArsQJy9lVJWZOnw37ufByO2Fmf1M8wpr8Q==",
-      "type": "package",
-      "path": "antlr/3.4.1.9004",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "antlr.3.4.1.9004.nupkg.sha512",
-        "antlr.nuspec",
-        "lib/Antlr3.Runtime.dll",
-        "lib/Antlr3.Runtime.pdb"
-      ]
-    },
     "Autofac/4.9.1": {
       "sha512": "L92DMQxpy4Xw3IypXxL8Z4NHt+qIkB1e0NB2OJ9u105Xp5sVsZSJ04YtYyubmM3KG8aC+WpyBhN14XcjPx5gLg==",
       "type": "package",
@@ -4808,106 +4457,6 @@
         "lib/netstandard2.0/Autofac.dll",
         "lib/netstandard2.0/Autofac.pdb",
         "lib/netstandard2.0/Autofac.xml"
-      ]
-    },
-    "bootstrap/5.3.0-alpha1": {
-      "sha512": "TSX+o7P7IqJiiqllLYt6BuOp3E6aRulpLHRci7/KIPyfXjcnulSh8NVgdbFzM/bNldrZ/Wuzsg0eX7I4WM9pqw==",
-      "type": "package",
-      "path": "bootstrap/5.3.0-alpha1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "bootstrap.5.3.0-alpha1.nupkg.sha512",
-        "bootstrap.nuspec",
-        "bootstrap.png",
-        "content/Content/bootstrap-grid.css",
-        "content/Content/bootstrap-grid.css.map",
-        "content/Content/bootstrap-grid.min.css",
-        "content/Content/bootstrap-grid.min.css.map",
-        "content/Content/bootstrap-grid.rtl.css",
-        "content/Content/bootstrap-grid.rtl.css.map",
-        "content/Content/bootstrap-grid.rtl.min.css",
-        "content/Content/bootstrap-grid.rtl.min.css.map",
-        "content/Content/bootstrap-reboot.css",
-        "content/Content/bootstrap-reboot.css.map",
-        "content/Content/bootstrap-reboot.min.css",
-        "content/Content/bootstrap-reboot.min.css.map",
-        "content/Content/bootstrap-reboot.rtl.css",
-        "content/Content/bootstrap-reboot.rtl.css.map",
-        "content/Content/bootstrap-reboot.rtl.min.css",
-        "content/Content/bootstrap-reboot.rtl.min.css.map",
-        "content/Content/bootstrap-utilities.css",
-        "content/Content/bootstrap-utilities.css.map",
-        "content/Content/bootstrap-utilities.min.css",
-        "content/Content/bootstrap-utilities.min.css.map",
-        "content/Content/bootstrap-utilities.rtl.css",
-        "content/Content/bootstrap-utilities.rtl.css.map",
-        "content/Content/bootstrap-utilities.rtl.min.css",
-        "content/Content/bootstrap-utilities.rtl.min.css.map",
-        "content/Content/bootstrap.css",
-        "content/Content/bootstrap.css.map",
-        "content/Content/bootstrap.min.css",
-        "content/Content/bootstrap.min.css.map",
-        "content/Content/bootstrap.rtl.css",
-        "content/Content/bootstrap.rtl.css.map",
-        "content/Content/bootstrap.rtl.min.css",
-        "content/Content/bootstrap.rtl.min.css.map",
-        "content/Scripts/bootstrap.bundle.js",
-        "content/Scripts/bootstrap.bundle.js.map",
-        "content/Scripts/bootstrap.bundle.min.js",
-        "content/Scripts/bootstrap.bundle.min.js.map",
-        "content/Scripts/bootstrap.esm.js",
-        "content/Scripts/bootstrap.esm.js.map",
-        "content/Scripts/bootstrap.esm.min.js",
-        "content/Scripts/bootstrap.esm.min.js.map",
-        "content/Scripts/bootstrap.js",
-        "content/Scripts/bootstrap.js.map",
-        "content/Scripts/bootstrap.min.js",
-        "content/Scripts/bootstrap.min.js.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-grid.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-grid.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-grid.min.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-grid.rtl.min.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.min.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-reboot.rtl.min.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.min.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap-utilities.rtl.min.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap.min.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap.min.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.css.map",
-        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css",
-        "contentFiles/any/any/wwwroot/css/bootstrap.rtl.min.css.map",
-        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js",
-        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.js.map",
-        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js",
-        "contentFiles/any/any/wwwroot/js/bootstrap.bundle.min.js.map",
-        "contentFiles/any/any/wwwroot/js/bootstrap.esm.js",
-        "contentFiles/any/any/wwwroot/js/bootstrap.esm.js.map",
-        "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js",
-        "contentFiles/any/any/wwwroot/js/bootstrap.esm.min.js.map",
-        "contentFiles/any/any/wwwroot/js/bootstrap.js",
-        "contentFiles/any/any/wwwroot/js/bootstrap.js.map",
-        "contentFiles/any/any/wwwroot/js/bootstrap.min.js",
-        "contentFiles/any/any/wwwroot/js/bootstrap.min.js.map"
       ]
     },
     "EntityFramework/6.4.4": {
@@ -5172,19 +4721,6 @@
         "messagepackanalyzer.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
-      ]
-    },
-    "Microsoft.AspNet.Web.Optimization/1.1.3": {
-      "sha512": "TWKKpTWEdB8jXp2Vl2TXNKW30GBQg6nnh0y8iZWmGY5c1XY4f649vfDslNHsCsvk9JZxc1Rkm/UGDdfq4gjWRQ==",
-      "type": "package",
-      "path": "microsoft.aspnet.web.optimization/1.1.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/System.Web.Optimization.dll",
-        "lib/net40/system.web.optimization.xml",
-        "microsoft.aspnet.web.optimization.1.1.3.nupkg.sha512",
-        "microsoft.aspnet.web.optimization.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication/2.2.0": {
@@ -7823,18 +7359,6 @@
         "lib/net6.0/minimalApiChanges.json",
         "microsoft.visualstudio.web.codegenerators.mvc.6.0.11.nupkg.sha512",
         "microsoft.visualstudio.web.codegenerators.mvc.nuspec"
-      ]
-    },
-    "Microsoft.Web.Infrastructure/1.0.0": {
-      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
-      "type": "package",
-      "path": "microsoft.web.infrastructure/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/Microsoft.Web.Infrastructure.dll",
-        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
-        "microsoft.web.infrastructure.nuspec"
       ]
     },
     "Microsoft.Win32.Primitives/4.3.0": {
@@ -12487,22 +12011,6 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "WebGrease/1.5.2": {
-      "sha512": "VoyDSOOugLx3q5IyOgEcjeYZQOqV9VWZQT57UtN4szlYhAmOcEjVfKWXbtRqBuX43pgyL9E7nMSIPoryC8Cu1Q==",
-      "type": "package",
-      "path": "webgrease/1.5.2",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/WebGrease.dll",
-        "tools/WG.exe",
-        "tools/install.ps1",
-        "tools/uninstall.ps1",
-        "webgrease.1.5.2.nupkg.sha512",
-        "webgrease.nuspec"
-      ]
-    },
     "ShopApp.Business/1.0.0": {
       "type": "project",
       "path": "../ShopApp.Business/ShopApp.Business.csproj",
@@ -12521,11 +12029,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "AngleSharp.Css >= 0.17.0-alpha-80",
       "EntityFramework >= 6.4.4",
       "FGS.Autofac.AspNetCore.Mvc.Routing >= 2020.8.3.2",
       "IyzipayCore >= 1.0.0",
-      "Microsoft.AspNet.Web.Optimization >= 1.1.3",
       "Microsoft.AspNetCore.Authorization >= 6.0.10",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.10",
@@ -12540,8 +12046,7 @@
       "SendGrid >= 9.28.0",
       "ShopApp.Business >= 1.0.0",
       "ShopApp.DataAccess >= 1.0.0",
-      "ShopApp.Entites >= 1.0.0",
-      "bootstrap >= 5.3.0-alpha1"
+      "ShopApp.Entites >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12593,10 +12098,6 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
-          "AngleSharp.Css": {
-            "target": "Package",
-            "version": "[0.17.0-alpha-80, )"
-          },
           "EntityFramework": {
             "target": "Package",
             "version": "[6.4.4, )"
@@ -12608,10 +12109,6 @@
           "IyzipayCore": {
             "target": "Package",
             "version": "[1.0.0, )"
-          },
-          "Microsoft.AspNet.Web.Optimization": {
-            "target": "Package",
-            "version": "[1.1.3, )"
           },
           "Microsoft.AspNetCore.Authorization": {
             "target": "Package",
@@ -12664,10 +12161,6 @@
           "SendGrid": {
             "target": "Package",
             "version": "[9.28.0, )"
-          },
-          "bootstrap": {
-            "target": "Package",
-            "version": "[5.3.0-alpha1, )"
           }
         },
         "imports": [
@@ -12692,47 +12185,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Antlr 3.4.1.9004' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Antlr",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.AspNet.Web.Optimization 1.1.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.AspNet.Web.Optimization",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Microsoft.Web.Infrastructure",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'WebGrease 1.5.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "WebGrease",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

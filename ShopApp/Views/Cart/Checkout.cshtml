@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-8">
             <h4 class="mb-3">Order Details</h4>
-            <form method="post">
+            <form action="/checkout" method="post">
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label asp-for="@Model.FirstName"> </label>
@@ -30,15 +30,15 @@
                 <div class="row">
                     <div class="col-md-4 mb-3">
                         <label asp-for="@Model.City" ></label>
-                        <input asp-for="@Model.City" name="City" class="form-control" />
+                        <input asp-for="@Model.City"  class="form-control" />
                     </div>
                     <div class="col-md-4 mb-3">
                         <label asp-for="@Model.Phone"></label>
-                        <input asp-for="@Model.Phone" name="Phone" class="form-control" />
+                        <input asp-for="@Model.Phone" class="form-control" />
                     </div>
                     <div class="col-md-4 mb-3">
                         <label asp-for="@Model.Mail"></label>
-                        <input asp-for="@Model.Mail" name="Mail" class="form-control" />
+                        <input asp-for="@Model.Mail"  class="form-control" />
                     </div>
                 </div>
                 <hr class="mb-4" />
@@ -78,8 +78,8 @@
                         <input asp-for="@Model.ExpirationYear" class="form-control" />
                     </div>
                     <div class=" col-md-4 mb-3">
-                        <label asp-for="@Model.Cvv">CVV</label>
-                        <input asp-for="@Model.Cvv"  name="cvv" class="form-control" />
+                        <label asp-for="@Model.Cvv"></label>
+                        <input asp-for="@Model.Cvv"  class="form-control" />
                     </div>
                 </div>
                 <hr class="mb-4" />
@@ -104,7 +104,6 @@
                     </li>
                 }
               
-             
                 <li class="list-group-item d-flex justify-content-between">
                     <span>Total(tl)</span>
                     <strong>@Model.CartModel.TotalPrice()</strong>

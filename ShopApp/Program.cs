@@ -13,6 +13,7 @@ using System.Configuration;
 using System.Data.Entity.Core.EntityClient;
 using System.Security.Principal;
 using SendGrid;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,8 @@ builder.Services.ConfigureApplicationCookie(o =>
     o.ExpireTimeSpan = TimeSpan.FromMinutes(1);
     o.SlidingExpiration = true;
 });
+
+builder.Services.AddTransient<IEmailSender,EmailSender>();
 builder.Services.AddAuthentication(
    )
     .AddCookie(option =>
@@ -52,8 +55,10 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 });
 
+Assembly.GetExecutingAssembly();
+
 builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration);
-builder.Services.AddSingleton<IEmailSender, EmailSender>();
+
 //Finish Authorization 
 builder.Services.AddDbContext<ShopContext>();
 builder.Services.AddIdentity<AppUser, AppRole>()
@@ -140,16 +145,23 @@ app.UseMvc(Route =>
         name: "default",
         template: "{controller=Home}/{action=Index}/{id?}"
         );
+
     Route.MapRoute(
-    name: "cart",
-    template: "cart",
-    defaults: new { controller = "Cart", action = "Index" }
-    );
+        name: "cart",
+        template: "cart",
+        defaults: new { controller = "Cart", action = "Index" }
+        );
+
     Route.MapRoute(
-    name: "checkout",
-    template: "cart",
-    defaults: new { controller = "Cart", action = "Checkout" }
-    );
+        name: "checkout",
+        template: "checkout",
+        defaults: new { controller = "Cart", action = "Checkout" }
+        );
+    Route.MapRoute(
+       name: "orders",
+       template: "orders",
+       defaults: new { controller = "Cart", action = "GetOrders" }
+       );
 
 
 });
