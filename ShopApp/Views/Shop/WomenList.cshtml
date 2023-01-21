@@ -18,7 +18,7 @@
                             <div class="accordion" id="accordionExample">
                                 <div class="card">
                                     <div class="card-heading active">
-                                        <a data-toggle="collapse" data-target="#collapseOne">Women</a>
+                                        <a data-toggle="collapse" data-target="#collapseOne">All Categories</a>
                                     </div>
                                     <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
                                         <div class="card-body">
@@ -198,11 +198,11 @@
                     {
                         <div class="col-lg-4 col-md-6">
                             <div class="product__item">
-                                <div class="product__item__pic set-bg" data-setbg="/Theme/img/shop/@item.ImageUrl">
+                                <div class="product__item__pic set-bg" data-setbg="/Theme/img/product/@item.ImageUrl">
                                     <div class="label new">New</div>
                                     <ul class="product__hover">
                                         <li><a href="/Theme/img/shop/shop-1.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
-                                        <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                                        <li><a a asp-controller="Shop" asp-action="Details" asp-route-id="@item.Id"><span class="icon_heart_alt"></span></a></li>
                                         <li><a href="#"><span class="icon_bag_alt"></span></a></li>
                                     </ul>
                                 </div>

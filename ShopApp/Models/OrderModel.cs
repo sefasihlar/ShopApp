@@ -18,5 +18,8 @@ namespace ShopApp.WebUI.Models
         public string Cvv { get; set; }
     
         public CartModel? CartModel { get; set; }
+
+        
+
     }
 }

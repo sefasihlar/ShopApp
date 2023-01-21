@@ -15,7 +15,10 @@ namespace ShopApp.Entites
         public int Id { get; set; }
         public string OrderNumber { get; set; }
         public DateTime OrderTime { get; set; }
-        public String UserId { get; set; }
+
+        public AppUser User { get; set; }
+        public  int UserId { get; set; }
+      
 
         public EnumOrderState OrderState { get; set; }
         public EnumPaymentTypes EnumPaymentTypes { get; set; }

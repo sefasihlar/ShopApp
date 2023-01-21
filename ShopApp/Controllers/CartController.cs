@@ -48,6 +48,8 @@ namespace ShopApp.WebUI.Controllers
             });
         }
 
+     
+
         [HttpPost]
         public IActionResult AddToCart(int productId, int quantity)
         {
@@ -142,7 +144,7 @@ namespace ShopApp.WebUI.Controllers
             order.Email = model.Mail;
             order.Phone = model.Phone;
             order.Address = model.Address;
-            order.UserId = userId;
+            order.UserId =Convert.ToInt32(userId);
 
             foreach (var item in model.CartModel.CartItems)
             {
@@ -167,8 +169,12 @@ namespace ShopApp.WebUI.Controllers
 
         private Payment PaymentRrocess(OrderModel model)
         {
+            List<BasketItem> basketItems = new List<BasketItem>();
+            BasketItem basketItem;
+
             Options options = new Options();
-        
+            options.SecretKey = "";
+            options.ApiKey = "";
             options.BaseUrl = "https://sandbox-api.iyzipay.com";
 
             CreatePaymentRequest request = new CreatePaymentRequest();
@@ -200,38 +206,38 @@ namespace ShopApp.WebUI.Controllers
 
             Buyer buyer = new Buyer();
             buyer.Id = "BY789";
-            buyer.Name = "John";
-            buyer.Surname = "Doe";
-            buyer.GsmNumber = "+905350000000";
-            buyer.Email = "email@email.com";
+            buyer.Name = model.FirstName;
+            buyer.Surname = model.LastName;
+            buyer.GsmNumber = model.Phone;
+            buyer.Email = model.Mail;
             buyer.IdentityNumber = "74300864791";
             buyer.LastLoginDate = "2015-10-05 12:43:35";
             buyer.RegistrationDate = "2013-04-21 15:12:09";
-            buyer.RegistrationAddress = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+            buyer.RegistrationAddress = model.Address;
             buyer.Ip = "85.34.78.112";
-            buyer.City = "Istanbul";
+            buyer.City = model.City;
             buyer.Country = "Turkey";
             buyer.ZipCode = "34732";
             request.Buyer = buyer;
 
             Address shippingAddress = new Address();
-            shippingAddress.ContactName = "Jane Doe";
-            shippingAddress.City = "Istanbul";
+            shippingAddress.ContactName = model.FirstName;
+            shippingAddress.City = model.City;
             shippingAddress.Country = "Turkey";
-            shippingAddress.Description = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+            shippingAddress.Description = model.City; 
             shippingAddress.ZipCode = "34742";
             request.ShippingAddress = shippingAddress;
 
             Address billingAddress = new Address();
-            billingAddress.ContactName = "Jane Doe";
-            billingAddress.City = "Istanbul";
+            billingAddress.ContactName = model.FirstName;
+            billingAddress.City = model.FirstName;
             billingAddress.Country = "Turkey";
-            billingAddress.Description = "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1";
+            billingAddress.Description = model.Address;
             billingAddress.ZipCode = "34742";
             request.BillingAddress = billingAddress;
 
-            List<BasketItem> basketItems = new List<BasketItem>();
-            BasketItem basketItem;
+           
+
 
             foreach (var item in model.CartModel.CartItems)
             {
@@ -242,6 +248,8 @@ namespace ShopApp.WebUI.Controllers
                 basketItem.ItemType = BasketItemType.PHYSICAL.ToString();
                 basketItem.Price = item.Price.ToString().Split(",")[0];
                 basketItems.Add(basketItem);
+
+               
             }
 
          

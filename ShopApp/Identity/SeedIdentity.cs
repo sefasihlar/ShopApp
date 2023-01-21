@@ -20,7 +20,7 @@ namespace ShopApp.WebUI.Identity
                 {
                     UserName = username,
                     Email = email,
-                    FullName = "AdminUser",
+                    FullName = "Admin User",
                     EmailConfirmed = true,
 
                 };

@@ -31,9 +31,9 @@ namespace ShopApp.WebUI.Controllers
                     CurrentPage = page,
                     ItemsPerPage = pageSize,
                     CurrenCategory = category,
-                    
+
                 },
-                Products = ip.GetProductsByCategory(category,page,pageSize)
+                Products = ip.GetProductsByCategory(category, page, pageSize).Where(x => x.Condition == "True").ToList()
             });
         }
 
@@ -73,6 +73,12 @@ namespace ShopApp.WebUI.Controllers
                 kategoriler = ic.GetALl()
             });
             
+        }
+
+        public IActionResult iliski()
+        {
+
+            return View();
         }
 
     }

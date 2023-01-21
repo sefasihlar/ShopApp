@@ -1,42 +1,33 @@
 ﻿using Microsoft.AspNetCore.Identity.UI.Services;
-using Microsoft.Extensions.Options;
 using SendGrid.Helpers.Mail;
 using SendGrid;
-using ShopApp.WebUI.MailServices;
-using System.Net;
 
-public class EmailSender : IEmailSender
+namespace ShopApp.WebUI.MailServices
 {
-   
-    public AuthMessageSenderOptions Options { get; } // using Microsoft.AspNetCore.Identity.UI.Services;
-    public EmailSender(IOptions<AuthMessageSenderOptions> optionsAccessor)
+    public class EmailSender:IEmailSender
     {
-        Options = optionsAccessor.Value;
-    }
+        private readonly string SendGridKey = "";
 
-    public Task SendEmailAsync(string email, string subject, string message)
-    {
-        return Execute(subject, message, email);
-    }
-
-    private Task Execute(string subject, string message, string email)
-    {
-        throw new NotImplementedException();
-    }
-
-    public Task Execute(string apiKey, string subject, string message, string email)
-    {
-        var client = new SendGridClient(apiKey);
-        var msg = new SendGridMessage()
+        public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
-            From = new EmailAddress("test@example.com", "Example User"),
-            Subject = subject,
-            PlainTextContent = message,
-            HtmlContent = message
-        };
-        msg.AddTo(new EmailAddress(email));
-        msg.SetClickTracking(false, false);
+            return Execute(SendGridKey, subject, htmlMessage, email);
+        }
 
-        return client.SendEmailAsync(msg);
+        private Task Execute(string SendGridKey, string subject, string message, string email)
+        {
+            var client = new SendGridClient(SendGridKey);
+            var msg = new SendGridMessage()
+            {
+                From = new EmailAddress("sihlarsefa97@gmail.com", "AiArt"),
+                Subject = subject,
+                PlainTextContent = message,
+                HtmlContent = message
+            };
+
+            msg.AddTo(new EmailAddress(email));
+
+
+            return client.SendEmailAsync(msg);
+        }
     }
 }

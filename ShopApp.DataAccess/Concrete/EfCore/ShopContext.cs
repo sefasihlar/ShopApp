@@ -16,7 +16,7 @@ namespace ShopApp.DataAccess.Concrete.EfCore
   
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=CODECYBER\\SQLEXPRESS;database=DbShop;integrated security=true");
+            optionsBuilder.UseSqlServer("server=CODECYBER\\SQLEXPRESS;database=DbShopp;integrated security=true");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -27,11 +27,12 @@ namespace ShopApp.DataAccess.Concrete.EfCore
                 .HasKey(c => new { c.CategoryId, c.ProductId });
             base.OnModelCreating(modelBuilder);
 
-         
+            modelBuilder.Entity<Order>()
+                     .Property(p => p.UserId)
+                     .HasColumnName("UserId");
 
         }
 
-     
         public DbSet<Product>? Products { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Category>? Categories { get; set; }

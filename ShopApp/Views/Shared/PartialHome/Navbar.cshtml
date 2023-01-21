@@ -1,16 +1,17 @@
-﻿<header class="header">
+﻿
+<header class="header">
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-3 col-lg-2">
                 <div class="header__logo">
-                    <a href="./index.html"><img src="/Theme/img/logo.png" alt=""></a>
+                    <h3><strong>AiArt</strong></h3>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-7">
                 <nav class="header__menu">
                     <ul>
                         <li class="active"><a asp-controller="Home" asp-action="Index">Home</a></li>
-                        <li><a asp-controller="Shop" asp-action="WomenList">Women’s</a></li>
+                        <li><a asp-controller="Shop" asp-action="WomenList">Woman’s</a></li>
                         <li><a asp-controller="Shop" asp-action="ManList">Men’s</a></li>
                         <li><a asp-controller="Shop" asp-action="AllList">Shop</a></li>
                         @if (User.Identity.IsAuthenticated)
@@ -18,7 +19,7 @@
                             <li>
                                 <a href="#">Pages</a>
                                 <ul class="dropdown">
-                                    <li><a asp-controller="Shop" asp-action="Details">Product Details</a></li>
+                                    <li><a asp-controller="Cart" asp-action="GetOrders">Orders</a></li>
                                     <li><a asp-controller="Cart" asp-action="Index">Shop Cart</a></li>
                                 </ul>
                             </li>
@@ -50,9 +51,9 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a asp-controller="Cart" asp-action="Index">
                                         <span class="icon_bag_alt"></span>
-                                        <div class="tip">2</div>
+                                        <div class="tip">1</div>
                                     </a>
                                 </li>
                             </ul>

@@ -14,8 +14,12 @@ using System.Data.Entity.Core.EntityClient;
 using System.Security.Principal;
 using SendGrid;
 using System.Reflection;
+using ShopApp.WebUI.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+
+RoleManager<IdentityRole> roleManager;
+RoleManager<AppUser> userManager;
 
 
 //start Authorization
@@ -25,7 +29,7 @@ builder.Services.ConfigureApplicationCookie(o =>
     o.SlidingExpiration = true;
 });
 
-builder.Services.AddTransient<IEmailSender,EmailSender>();
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 builder.Services.AddAuthentication(
    )
     .AddCookie(option =>
@@ -57,14 +61,12 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 Assembly.GetExecutingAssembly();
 
-builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration);
 
-//Finish Authorization 
 builder.Services.AddDbContext<ShopContext>();
 builder.Services.AddIdentity<AppUser, AppRole>()
     .AddEntityFrameworkStores<ShopContext>()
     .AddDefaultTokenProviders();
-
+//Finish Authorization 
 
 // Add services to the container.
 
@@ -157,6 +159,7 @@ app.UseMvc(Route =>
         template: "checkout",
         defaults: new { controller = "Cart", action = "Checkout" }
         );
+
     Route.MapRoute(
        name: "orders",
        template: "orders",
@@ -166,5 +169,7 @@ app.UseMvc(Route =>
 
 });
 //işlemler tanimlandi ve bitti
+
+
 
 app.Run();

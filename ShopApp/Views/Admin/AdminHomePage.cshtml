@@ -5,11 +5,13 @@
 }
 
 <br />
-<h3 style="text-align:center">All Products</h3>
+<h3 style="text-align:center">Products</h3>
 <br />
 <div style="margin:0px 30px 0px 30px">
     @if (Model.Products.Count() > 0)
     {
+        <a href="/Admin/CreateProduct" class="btn btn-link  btn-pill btn-md fw-bold bg-success" style="color:white;margin-bottom:10px;text-decoration:none">Create</a>
+        <br />
         <table class="table align-middle mb-0 bg-white">
             <thead class="bg-light">
                 <tr>

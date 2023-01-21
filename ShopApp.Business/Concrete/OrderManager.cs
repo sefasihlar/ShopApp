@@ -23,6 +23,16 @@ namespace ShopApp.Business.Concrete
             _orderDal.Create(entity);
         }
 
+        public List<Order> GetAll()
+        {
+            return _orderDal.GetAll().ToList();
+        }
+
+        public List<Order> GetAllOrders()
+        {
+            return _orderDal.GetAllOrders();
+        }
+
         public Order GetById(int id)
         {
             return _orderDal.GetById(id);
@@ -33,6 +43,9 @@ namespace ShopApp.Business.Concrete
             return _orderDal.GetOrders(userId);
         }
 
-     
+        public List<Order> GetWithOrderId(int orderId)
+        {
+            return _orderDal.GetWithOrderId(orderId);
+        }
     }
 }

@@ -14,6 +14,7 @@ namespace ShopApp.WebUI.Controllers
     {
         ProductManager ip = new ProductManager(new EfCoreProductDal());
         CategoryManager _category = new CategoryManager(new EfCoreCategoryDal());
+        OrderManager _orderManager = new OrderManager(new EfCoreOrderDal());
 
         public IActionResult AdminHomePage()
         {
@@ -21,6 +22,19 @@ namespace ShopApp.WebUI.Controllers
             {
                 Products = ip.GetALl()
             });
+        }
+
+
+        public IActionResult OrderList()
+        {
+            var values = _orderManager.GetAllOrders();
+            return View(values);
+        }
+
+        public IActionResult OrderDetails(int id)
+        {
+            var values = _orderManager.GetWithOrderId(id);
+            return View(values);
         }
 
         public IActionResult WomenList()

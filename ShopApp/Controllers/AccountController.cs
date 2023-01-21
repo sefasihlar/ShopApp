@@ -8,6 +8,7 @@ using ShopApp.Business.Concrete;
 using ShopApp.DataAccess.Concrete.EfCore;
 using ShopApp.Entites;
 using ShopApp.WebUI.Extensions;
+using ShopApp.WebUI.MailServices;
 using ShopApp.WebUI.Models;
 using System.Security.Policy;
 
@@ -18,7 +19,7 @@ namespace ShopApp.WebUI.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
-        private  IEmailSender _emailSender;
+        private readonly IEmailSender _emailSender;
         CartManager _cartManager = new CartManager(new EfCoreCartDal());
          
         public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IEmailSender emailSender)
@@ -63,7 +64,7 @@ namespace ShopApp.WebUI.Controllers
 
                     //send email
 
-                    await _emailSender.SendEmailAsync(model.Email,"Hesabinizi Onaylayınız",$"Lütefen Mail Emial Hesabınızı onaylamak için linke <a href='https://localhost:44385{callbackUrl}'>tıklayınız</a> ");
+                    await _emailSender.SendEmailAsync(model.Email,"Hesabı Onayla",$"Lütefen Mail Emial Hesabınızı onaylamak için linke <a href='https://localhost:44385{callbackUrl}'>tıklayınız</a> ");
 
 
                     TempData.Put("Message", new ResultMessage()
@@ -231,7 +232,7 @@ namespace ShopApp.WebUI.Controllers
             TempData.Put("Message", new ResultMessage()
             {
                 Title = "Forgot  Password",
-                Message = "Parola yenilemek için hesabiniza mail gönderildi",
+                Message = "Parola yenilemek için hesabiniza Email gönderildi",
                 Css = "warning"
             });
             return RedirectToAction("Login", "Account");

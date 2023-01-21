@@ -11,8 +11,8 @@
                     <ul>
                         <li class="active"><a asp-controller="Admin" asp-action="AdminHomePage">Home</a></li>
                         <li><a asp-controller="Admin" asp-action="Index">Products</a></li>
-                        <li><a asp-controller="Cart" asp-action="GetOrders">Orders</a></li>
-                        <li><a asp-controller="Admin" asp-action="WomenList">Women's</a></li>
+                        <li><a asp-controller="Admin" asp-action="OrderList">Orders</a></li>
+                        <li><a asp-controller="Admin" asp-action="WomenList">Woman's</a></li>
                         <li><a asp-controller="Admin" asp-action="ManList">Men’s</a></li>
                         <li><a asp-controller="Admin" asp-action="CategoryList">Categores</a></li>
                        
@@ -24,8 +24,21 @@
             <div class="col-lg-3">
                 <div class="header__right">
                     <div class="header__right__auth">
-                        <a href="#">Login</a>
-                        <a href="#">Register</a>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <a asp-controller="Account" asp-action="Manage">
+                                @User.Identity.Name
+                            </a>
+
+
+                            <a asp-controller="Account" asp-action="LogOut">Logout</a>
+                        }
+                        else
+                        {
+                            <a asp-controller="Account" asp-action="Login">Login</a>
+
+                            <a asp-controller="Account" asp-action="Register">Register</a>
+                        }
                     </div>
                     <ul class="header__right__widget">
                         <li><span class="icon_search search-switch"></span></li>

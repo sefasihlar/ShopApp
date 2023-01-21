@@ -9,9 +9,11 @@ namespace ShopApp.WebUI.Models
     {
         [Required]
         public string FullName { get; set; }
+
         [Required]
         public string UserName { get; set; }
         [Required]
+
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
@@ -19,6 +21,7 @@ namespace ShopApp.WebUI.Models
         [DataType(DataType.Password)]
         [Required]
         public string RePassword { get; set; }
+
         [DataType(DataType.EmailAddress)]
         [Required]
         public string Email { get; set; }

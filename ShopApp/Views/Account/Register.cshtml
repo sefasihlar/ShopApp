@@ -51,14 +51,16 @@
                     <div class="form-group row">
                         <label class="col-md-2 col-form-label" asp-for="Email"></label>
                         <div class="col-md-10">
-                            <input asp-for="Email" value="@Model.Email" class="form-control" />
+                            <input asp-for="Email" value="@Model.Email" type="email" class="form-control" />
                             <span asp-validation-for="Email" class="text-danger"></span>
+                          
                         </div>
+                       
                     </div>
                     <div class="form-group row">
                         <label class="col-md-2 col-form-label"></label>
                         <div class="col-md-10 offset-md-2">
-                            <button type="submit" value="" class="btn btn-primary">Save Product</button>
+                            <button type="submit" value="" class="btn btn-primary">Create User</button>
                         </div>
                     </div>
 

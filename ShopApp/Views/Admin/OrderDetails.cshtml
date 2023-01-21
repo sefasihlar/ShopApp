@@ -1,0 +1,102 @@
+﻿@using ShopApp.Entites
+@model List<Order>
+@{
+    ViewData["Title"] = "OrderDetails";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+  
+}
+<br />
+<h3  style="text-align:center">OrderDetails</h3>
+<br />
+
+    <div class="row" style="margin:0px 30px 0px 30px">
+        <div class="col-md-6">
+            @foreach (var item in Model)
+            {
+            
+             
+                <div class="container">
+                    <br />
+                    <p>Order Number:#@item.Id</p>
+                    <table class="table align-middle mb-0 bg-white table-bordered">
+                        <tbody>
+                            <tr>
+                                <td><strong>Customer Name:    </strong>  @item.FistName @item.LastName </td>
+
+                                <td><strong>Adress:</strong>  @item.Address</td>
+
+                                <td><strong>Phone:</strong> @item.Phone</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Payment Status:    </strong>  @item.EnumPaymentTypes</td>
+                                <td><strong>Order Status:</strong>  @item.OrderState</td>
+                            <td><strong>Date Time:</strong> @item.OrderTime.ToLongDateString()</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br />
+                </div>
+            }
+        </div>
+        <div class="col-md-6">
+            <br />
+            <p>Order Products</p>
+            <table class="table align-middle mb-0 bg-white">
+                <thead class="bg-light">
+                    <tr>
+                        <th>ID</th>
+                        <th>IMAGE</th>
+                        <th>NAME</th>
+                        <th>PRICE</th>
+                        <th>Quantity</th>
+
+                        <th>
+                            @foreach (var item in Model)
+                            {
+                                var hesap = item.OrderItems.Sum(x => x.Price * x.Quantity);
+
+                                <span style="color:darkgreen">Total Price:@hesap</span>
+
+                            }
+                        </th>
+                  
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        
+                      
+                        @foreach (var values in item.OrderItems)
+                        {
+                            <tr>
+                                <td>@values.Product.Id</td>
+                                <td>
+                                    <div class="d-flex align-items-center">
+                                        <img src="/Theme/img/product/@values.Product.ImageUrl"
+                                     alt=""
+                                     style="width: 45px; height: 45px"
+                                     class="rounded-circle" />
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="fw-normal mb-1">@values.Product.Name</p>
+                                </td>
+                                <td>
+                                    <p class="fw-normal mb-1">@values.Product.Price</p>
+                                    
+                                </td>
+                                <td>
+                                    @values.Quantity
+                                </td>
+                                <td>
+                                  
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
